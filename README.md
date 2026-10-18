@@ -2,11 +2,13 @@
 
 Servizio esterno che scarica automaticamente le bolle I2 (arrivi/rese, quotidiani/mista) ogni 20 minuti e le tiene in una cache propria, pronta per essere interrogata dal Gestionale Edicola quando li collegheremo.
 
+Nessuna dipendenza da Render: le credenziali I2 si impostano come variabili d'ambiente e i dati scaricati si salvano in un file locale (`data/cache.json`).
+
 ## Come funziona
 
-1. Ogni ciclo (default: 20 minuti) legge dalla tabella `utenti` (stesso database del gestionale) tutte le edicole con credenziali I2 configurate.
-2. Per ciascuna, prova a scaricare: oggi, domani, e gli ultimi N giorni (default 14) per tutte le combinazioni arrivi/rese × quotidiani/mista non ancora scaricate con successo.
-3. Salva il risultato nella propria tabella `i2_cache_bolle` (creata automaticamente), senza toccare le tabelle del gestionale.
+1. Ogni ciclo (default: 20 minuti) usa le credenziali I2 configurate tramite variabili d'ambiente (`I2_USERNAME`, `I2_PASSWORD`, `I2_EDICOLAID`).
+2. Prova a scaricare: oggi, domani, e gli ultimi N giorni (default 14) per tutte le combinazioni arrivi/rese × quotidiani/mista non ancora scaricate con successo.
+3. Salva il risultato in un file locale (`data/cache.json`, creato automaticamente).
 4. Dopo un numero massimo di tentativi falliti/vuoti (default 15) smette di riprovare per quella combinazione specifica.
 
 ## API esposte
@@ -20,11 +22,11 @@ Servizio esterno che scarica automaticamente le bolle I2 (arrivi/rese, quotidian
 
 ```powershell
 npm install
-copy .env.example .env   # poi modifica DATABASE_URL con quello del tuo Postgres
+copy .env.example .env   # poi modifica I2_USERNAME / I2_PASSWORD con le tue credenziali I2
 node server.js
 ```
 
-## Deploy su Northflank (piano gratuito, consigliato)
+## Deploy su Northflank (piano gratuito, consigliato, nessuna carta richiesta)
 
 1. Il codice è già su GitHub: [Bycyb75/Importabolle](https://github.com/Bycyb75/Importabolle).
 2. Vai su [northflank.com](https://northflank.com) → registrati gratis (anche con account GitHub, nessuna carta richiesta per il piano Free).
@@ -33,47 +35,19 @@ node server.js
 5. **Connect a repository** → autorizza GitHub → scegli `Bycyb75/Importabolle`, branch `main`.
 6. Build: **Dockerfile** (rilevato automaticamente, niente da cambiare).
 7. Piano/risorse: scegli il piano **Free**.
-8. **Networking**: aggiungi una porta pubblica HTTP → **8090**.
+8. **Networking**: porta **8090**, protocollo **HTTP**, accessibilità **Public**.
 9. **Environment variables**:
-   - `DATABASE_URL` → la "External Database URL" del Postgres del gestionale (serve quella esterna, Northflank non è nella rete privata di Render)
+   - `I2_USERNAME` → il tuo username del portale I2 (es. `427.lacoccinella`)
+   - `I2_PASSWORD` → la tua password I2
+   - `I2_EDICOLAID` → `1630` (o il tuo codice edicola)
    - `INTERVALLO_MINUTI` → `20`
    - `GIORNI_INDIETRO` → `14`
    - `MAX_TENTATIVI` → `15`
 10. **Deploy**. Northflank ti darà un URL pubblico tipo `https://importa-bolle-automatico--xxxxx.code.run`.
 
-## Deploy su Koyeb (al momento non disponibile)
-
-Koyeb è stata acquisita da Mistral AI e la dashboard per creare nuovi servizi generici non risulta più accessibile (ottobre 2026). Lasciato qui solo come riferimento storico:
-
-1. Il codice è già su GitHub: [Bycyb75/Importabolle](https://github.com/Bycyb75/Importabolle).
-2. Vai su [app.koyeb.com](https://app.koyeb.com) → crea un account gratuito (bastano email o GitHub, nessuna carta richiesta per il piano Free).
-3. **Create Service → GitHub**, seleziona il repository `Bycyb75/Importabolle`.
-4. Builder: **Dockerfile** (rilevato automaticamente).
-5. Istanza: scegli il piano **Free** (Nano).
-6. Porta: imposta **8090** (deve combaciare con quella usata dal servizio).
-7. Variabili d'ambiente:
-   - `DATABASE_URL` → la "Internal/External Database URL" del Postgres del gestionale (se il DB è su Render, usa quella **esterna**, perché Koyeb non è nella stessa rete privata di Render)
-   - `INTERVALLO_MINUTI` → `20`
-   - `GIORNI_INDIETRO` → `14`
-   - `MAX_TENTATIVI` → `15`
-8. Deploy. Koyeb ti darà un URL pubblico tipo `https://importa-bolle-automatico-<tuonome>.koyeb.app`.
-
-## Deploy su Render (alternativa, piano gratuito)
-
-1. Crea un nuovo repository Git per questa cartella (o aggiungila come servizio separato in un repo esistente) e pusha su GitHub.
-2. Su Render: **New → Blueprint**, collega il repository (userà `render.yaml` incluso, piano `free`, Docker con Chromium già pronto).
-   - In alternativa, manuale: **New → Web Service**, Runtime **Docker**, piano **Free**.
-3. Imposta la variabile d'ambiente **`DATABASE_URL`** → la stessa "Internal Database URL" del Postgres già usato dal gestionale su Render (le altre variabili hanno già un default in `render.yaml`).
-4. Deploy. Il servizio parte in ascolto e avvia subito il primo ciclo, poi ogni 20 minuti.
-
-### ⚠️ Limite del piano gratuito Render
-
-Un Web Service gratuito Render si "addormenta" dopo 15 minuti senza traffico HTTP in arrivo, interrompendo anche lo scheduler interno. Per tenerlo sempre sveglio, registra l'URL pubblico (es. `https://importa-bolle-automatico.onrender.com/health`) su un servizio di ping gratuito che lo chiami ogni 10 minuti, ad esempio:
-- [cron-job.org](https://cron-job.org) (gratuito, nessun limite stringente)
-- [UptimeRobot](https://uptimerobot.com) (gratuito, intervallo minimo 5 minuti)
-
-Senza questo accorgimento il servizio funziona comunque, ma si riattiva solo quando riceve una richiesta (es. quando il gestionale lo interroga), riprendendo da lì il ciclo di scaricamento.
+> ⚠️ Il file `data/cache.json` vive sul disco del container: su alcuni piani gratuiti può non sopravvivere a un redeploy. Non è un problema grave: al riavvio lo scheduler ricomincia semplicemente a riscaricare le bolle mancanti.
 
 ## Prossimo passo
 
-Collegare il Gestionale Edicola: il bottone "Importa Bolla I2" dovrà chiamare `GET /api/cache/bolla` su questo servizio (passandogli l'URL pubblico Render) invece di avviare direttamente lo scraping Playwright locale.
+Collegare il Gestionale Edicola: il bottone "Importa Bolla I2" dovrà chiamare `GET /api/cache/bolla` su questo servizio (passandogli l'URL pubblico) invece di avviare direttamente lo scraping Playwright locale.
+

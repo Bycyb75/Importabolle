@@ -1,51 +1,65 @@
-// Cache dedicata di questo servizio: NON tocca le tabelle del gestionale,
-// mantiene solo lo stato di ciò che è stato scaricato da I2 in autonomia.
-const pool = require('./db');
+// Cache dedicata di questo servizio: nessun database esterno, solo un file JSON locale.
+const fs = require('fs');
+const path = require('path');
+
+const CACHE_FILE = path.join(__dirname, 'data', 'cache.json');
+let store = {};
+
+function chiave(edicolaid, tipo, categoria, dataBollaSQL) {
+  return `${edicolaid}|${tipo}|${categoria}|${dataBollaSQL}`;
+}
+
+function salvaSuDisco() {
+  const dir = path.dirname(CACHE_FILE);
+  if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+  fs.writeFileSync(CACHE_FILE, JSON.stringify(store, null, 2));
+}
 
 async function assicuraTabella() {
-  await pool.query(`
-    CREATE TABLE IF NOT EXISTS i2_cache_bolle (
-      id SERIAL PRIMARY KEY,
-      edicolaid INTEGER NOT NULL,
-      tipo VARCHAR(10) NOT NULL,
-      categoria VARCHAR(20) NOT NULL,
-      data_bolla DATE NOT NULL,
-      disponibile BOOLEAN NOT NULL DEFAULT FALSE,
-      righe JSONB,
-      tentativi INTEGER NOT NULL DEFAULT 0,
-      ultimo_tentativo TIMESTAMP,
-      scaricato_at TIMESTAMP,
-      errore TEXT,
-      UNIQUE (edicolaid, tipo, categoria, data_bolla)
-    )
-  `);
+  try {
+    if (fs.existsSync(CACHE_FILE)) {
+      store = JSON.parse(fs.readFileSync(CACHE_FILE, 'utf8'));
+    }
+  } catch (err) {
+    console.error('[CACHE] ⚠️ Impossibile leggere il file di cache, riparto vuoto:', err.message);
+    store = {};
+  }
 }
 
 async function getVoce(edicolaid, tipo, categoria, dataBollaSQL) {
-  const res = await pool.query(
-    `SELECT * FROM i2_cache_bolle WHERE edicolaid = $1 AND tipo = $2 AND categoria = $3 AND data_bolla = $4::date`,
-    [edicolaid, tipo, categoria, dataBollaSQL]
-  );
-  return res.rows[0] || null;
+  return store[chiave(edicolaid, tipo, categoria, dataBollaSQL)] || null;
 }
 
 async function salvaSuccesso(edicolaid, tipo, categoria, dataBollaSQL, righe) {
-  await pool.query(`
-    INSERT INTO i2_cache_bolle (edicolaid, tipo, categoria, data_bolla, disponibile, righe, tentativi, ultimo_tentativo, scaricato_at, errore)
-    VALUES ($1, $2, $3, $4::date, $5, $6::jsonb, 1, NOW(), NOW(), NULL)
-    ON CONFLICT (edicolaid, tipo, categoria, data_bolla)
-    DO UPDATE SET disponibile = $5, righe = $6::jsonb, tentativi = i2_cache_bolle.tentativi + 1,
-                  ultimo_tentativo = NOW(), scaricato_at = NOW(), errore = NULL
-  `, [edicolaid, tipo, categoria, dataBollaSQL, righe.length > 0, JSON.stringify(righe)]);
+  const k = chiave(edicolaid, tipo, categoria, dataBollaSQL);
+  const precedente = store[k] || { tentativi: 0 };
+  store[k] = {
+    edicolaid, tipo, categoria, data_bolla: dataBollaSQL,
+    disponibile: righe.length > 0,
+    righe,
+    tentativi: (precedente.tentativi || 0) + 1,
+    ultimo_tentativo: new Date().toISOString(),
+    scaricato_at: new Date().toISOString(),
+    errore: null
+  };
+  salvaSuDisco();
 }
 
 async function salvaTentativoFallito(edicolaid, tipo, categoria, dataBollaSQL, messaggioErrore) {
-  await pool.query(`
-    INSERT INTO i2_cache_bolle (edicolaid, tipo, categoria, data_bolla, disponibile, tentativi, ultimo_tentativo, errore)
-    VALUES ($1, $2, $3, $4::date, FALSE, 1, NOW(), $5)
-    ON CONFLICT (edicolaid, tipo, categoria, data_bolla)
-    DO UPDATE SET tentativi = i2_cache_bolle.tentativi + 1, ultimo_tentativo = NOW(), errore = $5
-  `, [edicolaid, tipo, categoria, dataBollaSQL, messaggioErrore]);
+  const k = chiave(edicolaid, tipo, categoria, dataBollaSQL);
+  const precedente = store[k] || { tentativi: 0, disponibile: false, righe: null };
+  store[k] = {
+    ...precedente,
+    edicolaid, tipo, categoria, data_bolla: dataBollaSQL,
+    tentativi: (precedente.tentativi || 0) + 1,
+    ultimo_tentativo: new Date().toISOString(),
+    errore: messaggioErrore
+  };
+  salvaSuDisco();
 }
 
-module.exports = { assicuraTabella, getVoce, salvaSuccesso, salvaTentativoFallito };
+function tutteLeVoci() {
+  return Object.values(store).sort((a, b) => (a.data_bolla < b.data_bolla ? 1 : -1));
+}
+
+module.exports = { assicuraTabella, getVoce, salvaSuccesso, salvaTentativoFallito, tutteLeVoci };

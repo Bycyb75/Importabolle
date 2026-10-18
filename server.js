@@ -1,6 +1,5 @@
 require('dotenv').config();
 const express = require('express');
-const pool = require('./db');
 const cache = require('./cache');
 const { avviaScheduler, cicloCompleto } = require('./scheduler');
 
@@ -41,12 +40,7 @@ app.get('/api/cache/bolla', async (req, res) => {
 
 // Elenco di stato per monitoraggio/debug
 app.get('/api/cache/status', async (req, res) => {
-  const result = await pool.query(`
-    SELECT edicolaid, tipo, categoria, data_bolla, disponibile, tentativi, ultimo_tentativo, scaricato_at, errore
-    FROM i2_cache_bolle
-    ORDER BY data_bolla DESC, edicolaid, categoria, tipo
-  `);
-  res.json({ success: true, voci: result.rows });
+  res.json({ success: true, voci: cache.tutteLeVoci() });
 });
 
 // Forza un ciclo di scaricamento immediato (utile per test/debug)
