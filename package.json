@@ -1,0 +1,16 @@
+{
+  "name": "importa-bolle-automatico",
+  "version": "1.0.0",
+  "description": "Servizio esterno che scarica automaticamente le bolle I2 ogni 20 minuti e le tiene in cache per il Gestionale Edicola",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.1.2",
+    "dotenv": "^17.2.2",
+    "express": "^4.21.2",
+    "pg": "^8.16.3",
+    "playwright": "1.56.1"
+  }
+}
