@@ -24,7 +24,26 @@ copy .env.example .env   # poi modifica DATABASE_URL con quello del tuo Postgres
 node server.js
 ```
 
-## Deploy su Koyeb (piano gratuito, nessuna carta richiesta)
+## Deploy su Northflank (piano gratuito, consigliato)
+
+1. Il codice è già su GitHub: [Bycyb75/Importabolle](https://github.com/Bycyb75/Importabolle).
+2. Vai su [northflank.com](https://northflank.com) → registrati gratis (anche con account GitHub, nessuna carta richiesta per il piano Free).
+3. Crea un nuovo **Project** (un contenitore per i tuoi servizi).
+4. Dentro il progetto: **Create new → Service → Deployment**.
+5. **Connect a repository** → autorizza GitHub → scegli `Bycyb75/Importabolle`, branch `main`.
+6. Build: **Dockerfile** (rilevato automaticamente, niente da cambiare).
+7. Piano/risorse: scegli il piano **Free**.
+8. **Networking**: aggiungi una porta pubblica HTTP → **8090**.
+9. **Environment variables**:
+   - `DATABASE_URL` → la "External Database URL" del Postgres del gestionale (serve quella esterna, Northflank non è nella rete privata di Render)
+   - `INTERVALLO_MINUTI` → `20`
+   - `GIORNI_INDIETRO` → `14`
+   - `MAX_TENTATIVI` → `15`
+10. **Deploy**. Northflank ti darà un URL pubblico tipo `https://importa-bolle-automatico--xxxxx.code.run`.
+
+## Deploy su Koyeb (al momento non disponibile)
+
+Koyeb è stata acquisita da Mistral AI e la dashboard per creare nuovi servizi generici non risulta più accessibile (ottobre 2026). Lasciato qui solo come riferimento storico:
 
 1. Il codice è già su GitHub: [Bycyb75/Importabolle](https://github.com/Bycyb75/Importabolle).
 2. Vai su [app.koyeb.com](https://app.koyeb.com) → crea un account gratuito (bastano email o GitHub, nessuna carta richiesta per il piano Free).
@@ -38,8 +57,6 @@ node server.js
    - `GIORNI_INDIETRO` → `14`
    - `MAX_TENTATIVI` → `15`
 8. Deploy. Koyeb ti darà un URL pubblico tipo `https://importa-bolle-automatico-<tuonome>.koyeb.app`.
-
-Il piano Free di Koyeb non richiede il trucco del "ping" per restare sveglio come Render: il servizio resta attivo di continuo. Se in futuro notassi comunque delle pause, si può comunque applicare la stessa soluzione descritta sotto per Render.
 
 ## Deploy su Render (alternativa, piano gratuito)
 
