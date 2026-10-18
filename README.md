@@ -24,7 +24,24 @@ copy .env.example .env   # poi modifica DATABASE_URL con quello del tuo Postgres
 node server.js
 ```
 
-## Deploy su Render (piano gratuito)
+## Deploy su Koyeb (piano gratuito, nessuna carta richiesta)
+
+1. Il codice è già su GitHub: [Bycyb75/Importabolle](https://github.com/Bycyb75/Importabolle).
+2. Vai su [app.koyeb.com](https://app.koyeb.com) → crea un account gratuito (bastano email o GitHub, nessuna carta richiesta per il piano Free).
+3. **Create Service → GitHub**, seleziona il repository `Bycyb75/Importabolle`.
+4. Builder: **Dockerfile** (rilevato automaticamente).
+5. Istanza: scegli il piano **Free** (Nano).
+6. Porta: imposta **8090** (deve combaciare con quella usata dal servizio).
+7. Variabili d'ambiente:
+   - `DATABASE_URL` → la "Internal/External Database URL" del Postgres del gestionale (se il DB è su Render, usa quella **esterna**, perché Koyeb non è nella stessa rete privata di Render)
+   - `INTERVALLO_MINUTI` → `20`
+   - `GIORNI_INDIETRO` → `14`
+   - `MAX_TENTATIVI` → `15`
+8. Deploy. Koyeb ti darà un URL pubblico tipo `https://importa-bolle-automatico-<tuonome>.koyeb.app`.
+
+Il piano Free di Koyeb non richiede il trucco del "ping" per restare sveglio come Render: il servizio resta attivo di continuo. Se in futuro notassi comunque delle pause, si può comunque applicare la stessa soluzione descritta sotto per Render.
+
+## Deploy su Render (alternativa, piano gratuito)
 
 1. Crea un nuovo repository Git per questa cartella (o aggiungila come servizio separato in un repo esistente) e pusha su GitHub.
 2. Su Render: **New → Blueprint**, collega il repository (userà `render.yaml` incluso, piano `free`, Docker con Chromium già pronto).
