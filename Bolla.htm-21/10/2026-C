@@ -1,0 +1,1424 @@
+<!DOCTYPE html>
+<html lang="it">
+<head><meta charset="UTF-8"><title>Bolla 21/10/2026 C - MD online</title></head>
+<body>
+<table id="dlBolla" cellspacing="0"><tbody>
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlBolla_ctl01_hlDettaglio" href="/2011965">AUTODEFINITI PER TUTTI</a></strong></td>
+            <td></td>
+            <td></td>
+            <td><span id="ctl00_MainContent_dlBolla_ctl01_lblNumero">60391</span></td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">2,20 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlBolla_ctl01_lblPrezzoNetto" title="1,787 €">1,787 €</span>
+            </td>
+            <td style="text-align:center"></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl01_lblCopie">4</span>
+              <input name="ctl00$MainContent$dlBolla$ctl01$txtVerificato" type="text" value="4" maxlength="4" id="txtVerificato" class=" textEntryBolla" />
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl01_lblDifferenza" style="font-weight: 700;">-</span>
+              <span id="ctl00_MainContent_dlBolla_ctl01_lblMancante" title="Quantità segnalata"></span>
+            </td>
+            <td></td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlBolla_ctl01_lblTestata">4714</span></td>
+            <td style="text-align:center"><span title="Prodotto editoriale">PE</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlBolla_ctl02_hlDettaglio" href="/2011967">BIBLIOTECA DELLE STAGIONI</a></strong></td>
+            <td></td>
+            <td></td>
+            <td><span id="ctl00_MainContent_dlBolla_ctl02_lblNumero">60036</span></td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">7,99 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlBolla_ctl02_lblPrezzoNetto" title="6,4901 €">6,4901 €</span>
+            </td>
+            <td style="text-align:center"></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl02_lblCopie">1</span>
+              <input name="ctl00$MainContent$dlBolla$ctl02$txtVerificato" type="text" value="1" maxlength="4" id="txtVerificato" class=" textEntryBolla" />
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl02_lblDifferenza" style="font-weight: 700;">-</span>
+              <span id="ctl00_MainContent_dlBolla_ctl02_lblMancante" title="Quantità segnalata"></span>
+            </td>
+            <td></td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlBolla_ctl02_lblTestata">5112</span></td>
+            <td style="text-align:center"><span title="Prodotto editoriale">PE</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlBolla_ctl03_hlDettaglio" href="/2011926">CASANTICA</a></strong></td>
+            <td></td>
+            <td></td>
+            <td><span id="ctl00_MainContent_dlBolla_ctl03_lblNumero">60155</span></td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">7,90 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlBolla_ctl03_lblPrezzoNetto" title="6,417 €">6,417 €</span>
+            </td>
+            <td style="text-align:center"></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl03_lblCopie">1</span>
+              <input name="ctl00$MainContent$dlBolla$ctl03$txtVerificato" type="text" value="1" maxlength="4" id="txtVerificato" class=" textEntryBolla" />
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl03_lblDifferenza" style="font-weight: 700;">-</span>
+              <span id="ctl00_MainContent_dlBolla_ctl03_lblMancante" title="Quantità segnalata"></span>
+            </td>
+            <td></td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlBolla_ctl03_lblTestata">1262</span></td>
+            <td style="text-align:center"><span title="Prodotto editoriale">PE</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlBolla_ctl04_hlDettaglio" href="/2012044">CRUCIVERBA SPLENDIDI</a></strong></td>
+            <td></td>
+            <td></td>
+            <td><span id="ctl00_MainContent_dlBolla_ctl04_lblNumero">60112</span></td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">1,90 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlBolla_ctl04_lblPrezzoNetto" title="1,5433 €">1,5433 €</span>
+            </td>
+            <td style="text-align:center"></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl04_lblCopie">3</span>
+              <input name="ctl00$MainContent$dlBolla$ctl04$txtVerificato" type="text" value="3" maxlength="4" id="txtVerificato" class=" textEntryBolla" />
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl04_lblDifferenza" style="font-weight: 700;">-</span>
+              <span id="ctl00_MainContent_dlBolla_ctl04_lblMancante" title="Quantità segnalata"></span>
+            </td>
+            <td></td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlBolla_ctl04_lblTestata">14201</span></td>
+            <td style="text-align:center"><span title="Prodotto editoriale">PE</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlBolla_ctl05_hlDettaglio" href="/2012043">DIVA E DONNA</a></strong></td>
+            <td></td>
+            <td></td>
+            <td><span id="ctl00_MainContent_dlBolla_ctl05_lblNumero">60043</span></td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">1,20 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlBolla_ctl05_lblPrezzoNetto" title="0,9747 €">0,9747 €</span>
+            </td>
+            <td style="text-align:center"></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl05_lblCopie">6</span>
+              <input name="ctl00$MainContent$dlBolla$ctl05$txtVerificato" type="text" value="6" maxlength="4" id="txtVerificato" class=" textEntryBolla" />
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl05_lblDifferenza" style="font-weight: 700;">-</span>
+              <span id="ctl00_MainContent_dlBolla_ctl05_lblMancante" title="Quantità segnalata"></span>
+            </td>
+            <td></td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlBolla_ctl05_lblTestata">13851</span></td>
+            <td style="text-align:center"><span title="Prodotto editoriale">PE</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlBolla_ctl06_hlDettaglio" href="/2012047">DVD DI SORRISI COLL2</a></strong></td>
+            <td></td>
+            <td></td>
+            <td><span id="ctl00_MainContent_dlBolla_ctl06_lblNumero">60011</span></td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">14,90 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlBolla_ctl06_lblPrezzoNetto" title="12,2955 €">12,2955 €</span>
+            </td>
+            <td style="text-align:center"></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl06_lblCopie">1</span>
+              <input name="ctl00$MainContent$dlBolla$ctl06$txtVerificato" type="text" value="1" maxlength="4" id="txtVerificato" class=" textEntryBolla" />
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl06_lblDifferenza" style="font-weight: 700;">-</span>
+              <span id="ctl00_MainContent_dlBolla_ctl06_lblMancante" title="Quantità segnalata"></span>
+            </td>
+            <td></td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlBolla_ctl06_lblTestata">16199</span></td>
+            <td style="text-align:center"><span title="Prodotto editoriale">PE</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlBolla_ctl07_hlDettaglio" href="/2012005">ENC. Citta del mondo ediz</a></strong></td>
+            <td></td>
+            <td></td>
+            <td><span id="ctl00_MainContent_dlBolla_ctl07_lblNumero">63004</span></td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">12,99 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlBolla_ctl07_lblPrezzoNetto" title="10,5515 €">10,5515 €</span>
+            </td>
+            <td style="text-align:center"></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl07_lblCopie">1</span>
+              <input name="ctl00$MainContent$dlBolla$ctl07$txtVerificato" type="text" value="1" maxlength="4" id="txtVerificato" class=" textEntryBolla" />
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl07_lblDifferenza" style="font-weight: 700;">-</span>
+              <span id="ctl00_MainContent_dlBolla_ctl07_lblMancante" title="Quantità segnalata"></span>
+            </td>
+            <td></td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlBolla_ctl07_lblTestata">7934</span></td>
+            <td style="text-align:center"><span title="Prodotto editoriale">PE</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlBolla_ctl08_hlDettaglio" href="/2011959">ENIGMISTICA PIU'</a></strong></td>
+            <td></td>
+            <td></td>
+            <td><span id="ctl00_MainContent_dlBolla_ctl08_lblNumero">60043</span></td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">1,30 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlBolla_ctl08_lblPrezzoNetto" title="1,056 €">1,056 €</span>
+            </td>
+            <td style="text-align:center"></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl08_lblCopie">4</span>
+              <input name="ctl00$MainContent$dlBolla$ctl08$txtVerificato" type="text" value="4" maxlength="4" id="txtVerificato" class=" textEntryBolla" />
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl08_lblDifferenza" style="font-weight: 700;">-</span>
+              <span id="ctl00_MainContent_dlBolla_ctl08_lblMancante" title="Quantità segnalata"></span>
+            </td>
+            <td></td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlBolla_ctl08_lblTestata">4267</span></td>
+            <td style="text-align:center"><span title="Prodotto editoriale">PE</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlBolla_ctl09_hlDettaglio" href="/2011950">F (FEM.CAIRO)</a></strong></td>
+            <td></td>
+            <td></td>
+            <td><span id="ctl00_MainContent_dlBolla_ctl09_lblNumero">60043</span></td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">1,40 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlBolla_ctl09_lblPrezzoNetto" title="1,1372 €">1,1372 €</span>
+            </td>
+            <td style="text-align:center"></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl09_lblCopie">3</span>
+              <input name="ctl00$MainContent$dlBolla$ctl09$txtVerificato" type="text" value="3" maxlength="4" id="txtVerificato" class=" textEntryBolla" />
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl09_lblDifferenza" style="font-weight: 700;">-</span>
+              <span id="ctl00_MainContent_dlBolla_ctl09_lblMancante" title="Quantità segnalata"></span>
+            </td>
+            <td></td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlBolla_ctl09_lblTestata">3363</span></td>
+            <td style="text-align:center"><span title="Prodotto editoriale">PE</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlBolla_ctl10_hlDettaglio" href="/2012056">GENTE PUZZLE</a></strong></td>
+            <td></td>
+            <td></td>
+            <td><span id="ctl00_MainContent_dlBolla_ctl10_lblNumero">60011</span></td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">2,20 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlBolla_ctl10_lblPrezzoNetto" title="1,787 €">1,787 €</span>
+            </td>
+            <td style="text-align:center"></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl10_lblCopie">1</span>
+              <input name="ctl00$MainContent$dlBolla$ctl10$txtVerificato" type="text" value="1" maxlength="4" id="txtVerificato" class=" textEntryBolla" />
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl10_lblDifferenza" style="font-weight: 700;">-</span>
+              <span id="ctl00_MainContent_dlBolla_ctl10_lblMancante" title="Quantità segnalata"></span>
+            </td>
+            <td></td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlBolla_ctl10_lblTestata">22324</span></td>
+            <td style="text-align:center"><span title="Prodotto editoriale">PE</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlBolla_ctl11_hlDettaglio" href="/2012002">GRUFFALO' E I SUOI A</a></strong></td>
+            <td></td>
+            <td></td>
+            <td><span id="ctl00_MainContent_dlBolla_ctl11_lblNumero">60005</span></td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">7,99 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlBolla_ctl11_lblPrezzoNetto" title="6,4864 €">6,4864 €</span>
+            </td>
+            <td style="text-align:center"></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl11_lblCopie">1</span>
+              <input name="ctl00$MainContent$dlBolla$ctl11$txtVerificato" type="text" value="1" maxlength="4" id="txtVerificato" class=" textEntryBolla" />
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl11_lblDifferenza" style="font-weight: 700;">-</span>
+              <span id="ctl00_MainContent_dlBolla_ctl11_lblMancante" title="Quantità segnalata"></span>
+            </td>
+            <td></td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlBolla_ctl11_lblTestata">7504</span></td>
+            <td style="text-align:center"><span title="Prodotto editoriale">PE</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlBolla_ctl12_hlDettaglio" href="/2011929">HARMONY PACK PIU'</a></strong></td>
+            <td></td>
+            <td></td>
+            <td><span id="ctl00_MainContent_dlBolla_ctl12_lblNumero">60144</span></td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">6,00 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlBolla_ctl12_lblPrezzoNetto" title="4,8737 €">4,8737 €</span>
+            </td>
+            <td style="text-align:center"></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl12_lblCopie">1</span>
+              <input name="ctl00$MainContent$dlBolla$ctl12$txtVerificato" type="text" value="1" maxlength="4" id="txtVerificato" class=" textEntryBolla" />
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl12_lblDifferenza" style="font-weight: 700;">-</span>
+              <span id="ctl00_MainContent_dlBolla_ctl12_lblMancante" title="Quantità segnalata"></span>
+            </td>
+            <td></td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlBolla_ctl12_lblTestata">1477</span></td>
+            <td style="text-align:center"><span title="Prodotto editoriale">PE</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlBolla_ctl13_hlDettaglio" href="/2012006">IN FAMIGLIA</a></strong></td>
+            <td></td>
+            <td></td>
+            <td><span id="ctl00_MainContent_dlBolla_ctl13_lblNumero">60008</span></td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">1,70 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlBolla_ctl13_lblPrezzoNetto" title="1,3809 €">1,3809 €</span>
+            </td>
+            <td style="text-align:center"></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl13_lblCopie">1</span>
+              <input name="ctl00$MainContent$dlBolla$ctl13$txtVerificato" type="text" value="1" maxlength="4" id="txtVerificato" class=" textEntryBolla" />
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl13_lblDifferenza" style="font-weight: 700;">-</span>
+              <span id="ctl00_MainContent_dlBolla_ctl13_lblMancante" title="Quantità segnalata"></span>
+            </td>
+            <td></td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlBolla_ctl13_lblTestata">8286</span></td>
+            <td style="text-align:center"><span title="Prodotto editoriale">PE</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlBolla_ctl14_hlDettaglio" href="/2012038">INTIMITA'</a></strong></td>
+            <td></td>
+            <td></td>
+            <td><span id="ctl00_MainContent_dlBolla_ctl14_lblNumero">60042</span></td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">2,20 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlBolla_ctl14_lblPrezzoNetto" title="1,787 €">1,787 €</span>
+            </td>
+            <td style="text-align:center"></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl14_lblCopie">4</span>
+              <input name="ctl00$MainContent$dlBolla$ctl14$txtVerificato" type="text" value="4" maxlength="4" id="txtVerificato" class=" textEntryBolla" />
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl14_lblDifferenza" style="font-weight: 700;">-</span>
+              <span id="ctl00_MainContent_dlBolla_ctl14_lblMancante" title="Quantità segnalata"></span>
+            </td>
+            <td></td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlBolla_ctl14_lblTestata">12164</span></td>
+            <td style="text-align:center"><span title="Prodotto editoriale">PE</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlBolla_ctl15_hlDettaglio" href="/2011984">LOVE PUZZLE</a></strong></td>
+            <td></td>
+            <td></td>
+            <td><span id="ctl00_MainContent_dlBolla_ctl15_lblNumero">60419</span></td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">1,50 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlBolla_ctl15_lblPrezzoNetto" title="1,2184 €">1,2184 €</span>
+            </td>
+            <td style="text-align:center"></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl15_lblCopie">1</span>
+              <input name="ctl00$MainContent$dlBolla$ctl15$txtVerificato" type="text" value="1" maxlength="4" id="txtVerificato" class=" textEntryBolla" />
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl15_lblDifferenza" style="font-weight: 700;">-</span>
+              <span id="ctl00_MainContent_dlBolla_ctl15_lblMancante" title="Quantità segnalata"></span>
+            </td>
+            <td></td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlBolla_ctl15_lblTestata">6185</span></td>
+            <td style="text-align:center"><span title="Prodotto editoriale">PE</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlBolla_ctl16_hlDettaglio" href="/2012090">LUCCA NEWS</a></strong></td>
+            <td></td>
+            <td></td>
+            <td><span id="ctl00_MainContent_dlBolla_ctl16_lblNumero">65</span></td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">0,00 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlBolla_ctl16_lblPrezzoNetto" title="-0,10 €">-0,10 €</span>
+            </td>
+            <td style="text-align:center"></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl16_lblCopie">40</span>
+              <input name="ctl00$MainContent$dlBolla$ctl16$txtVerificato" type="text" value="40" maxlength="4" id="txtVerificato" class=" textEntryBolla" />
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl16_lblDifferenza" style="font-weight: 700;">-</span>
+              <span id="ctl00_MainContent_dlBolla_ctl16_lblMancante" title="Quantità segnalata"></span>
+            </td>
+            <td></td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlBolla_ctl16_lblTestata">31478</span></td>
+            <td style="text-align:center"><span title="Prodotto editoriale">PE</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlBolla_ctl17_hlDettaglio" href="/2011941">MINI RELAX RACCOLTA</a></strong></td>
+            <td></td>
+            <td></td>
+            <td><span id="ctl00_MainContent_dlBolla_ctl17_lblNumero">60586</span></td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">2,20 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlBolla_ctl17_lblPrezzoNetto" title="1,787 €">1,787 €</span>
+            </td>
+            <td style="text-align:center"></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl17_lblCopie">1</span>
+              <input name="ctl00$MainContent$dlBolla$ctl17$txtVerificato" type="text" value="1" maxlength="4" id="txtVerificato" class=" textEntryBolla" />
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl17_lblDifferenza" style="font-weight: 700;">-</span>
+              <span id="ctl00_MainContent_dlBolla_ctl17_lblMancante" title="Quantità segnalata"></span>
+            </td>
+            <td></td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlBolla_ctl17_lblTestata">2546</span></td>
+            <td style="text-align:center"><span title="Prodotto editoriale">PE</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlBolla_ctl18_hlDettaglio" href="/2012029">MISSIONE SUDOKU</a></strong></td>
+            <td></td>
+            <td></td>
+            <td><span id="ctl00_MainContent_dlBolla_ctl18_lblNumero">60025</span></td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">2,99 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlBolla_ctl18_lblPrezzoNetto" title="2,4287 €">2,4287 €</span>
+            </td>
+            <td style="text-align:center"></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl18_lblCopie">1</span>
+              <input name="ctl00$MainContent$dlBolla$ctl18$txtVerificato" type="text" value="1" maxlength="4" id="txtVerificato" class=" textEntryBolla" />
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl18_lblDifferenza" style="font-weight: 700;">-</span>
+              <span id="ctl00_MainContent_dlBolla_ctl18_lblMancante" title="Quantità segnalata"></span>
+            </td>
+            <td></td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlBolla_ctl18_lblTestata">9545</span></td>
+            <td style="text-align:center"><span title="Prodotto editoriale">PE</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlBolla_ctl19_hlDettaglio" href="/2012093">NUOVA ENIGMISTICA</a></strong></td>
+            <td></td>
+            <td></td>
+            <td><span id="ctl00_MainContent_dlBolla_ctl19_lblNumero">60013</span></td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">1,20 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlBolla_ctl19_lblPrezzoNetto" title="0,9811 €">0,9811 €</span>
+            </td>
+            <td style="text-align:center"></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl19_lblCopie">4</span>
+              <input name="ctl00$MainContent$dlBolla$ctl19$txtVerificato" type="text" value="4" maxlength="4" id="txtVerificato" class=" textEntryBolla" />
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl19_lblDifferenza" style="font-weight: 700;">-</span>
+              <span id="ctl00_MainContent_dlBolla_ctl19_lblMancante" title="Quantità segnalata"></span>
+            </td>
+            <td></td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlBolla_ctl19_lblTestata">32013</span></td>
+            <td style="text-align:center"><span title="Prodotto editoriale">PE</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlBolla_ctl20_hlDettaglio" href="/2012013">PANORAMA</a></strong></td>
+            <td></td>
+            <td></td>
+            <td><span id="ctl00_MainContent_dlBolla_ctl20_lblNumero">62644</span></td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">3,50 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlBolla_ctl20_lblPrezzoNetto" title="2,843 €">2,843 €</span>
+            </td>
+            <td style="text-align:center"></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl20_lblCopie">2</span>
+              <input name="ctl00$MainContent$dlBolla$ctl20$txtVerificato" type="text" value="2" maxlength="4" id="txtVerificato" class=" textEntryBolla" />
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl20_lblDifferenza" style="font-weight: 700;">-</span>
+              <span id="ctl00_MainContent_dlBolla_ctl20_lblMancante" title="Quantità segnalata"></span>
+            </td>
+            <td></td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlBolla_ctl20_lblTestata">8856</span></td>
+            <td style="text-align:center"><span title="Prodotto editoriale">PE</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlBolla_ctl21_hlDettaglio" href="/2011983">PUZZLE GIGANTI</a></strong></td>
+            <td></td>
+            <td></td>
+            <td><span id="ctl00_MainContent_dlBolla_ctl21_lblNumero">60511</span></td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">2,00 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlBolla_ctl21_lblPrezzoNetto" title="1,6246 €">1,6246 €</span>
+            </td>
+            <td style="text-align:center"></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl21_lblCopie">1</span>
+              <input name="ctl00$MainContent$dlBolla$ctl21$txtVerificato" type="text" value="1" maxlength="4" id="txtVerificato" class=" textEntryBolla" />
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl21_lblDifferenza" style="font-weight: 700;">-</span>
+              <span id="ctl00_MainContent_dlBolla_ctl21_lblMancante" title="Quantità segnalata"></span>
+            </td>
+            <td></td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlBolla_ctl21_lblTestata">6178</span></td>
+            <td style="text-align:center"><span title="Prodotto editoriale">PE</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlBolla_ctl22_hlDettaglio" href="/2012036">SETTIMANA SUDOKU</a></strong></td>
+            <td></td>
+            <td></td>
+            <td><span id="ctl00_MainContent_dlBolla_ctl22_lblNumero">61106</span></td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">1,50 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlBolla_ctl22_lblPrezzoNetto" title="1,2184 €">1,2184 €</span>
+            </td>
+            <td style="text-align:center"></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl22_lblCopie">7</span>
+              <input name="ctl00$MainContent$dlBolla$ctl22$txtVerificato" type="text" value="7" maxlength="4" id="txtVerificato" class=" textEntryBolla" />
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl22_lblDifferenza" style="font-weight: 700;">-</span>
+              <span id="ctl00_MainContent_dlBolla_ctl22_lblMancante" title="Quantità segnalata"></span>
+            </td>
+            <td></td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlBolla_ctl22_lblTestata">11078</span></td>
+            <td style="text-align:center"><span title="Prodotto editoriale">PE</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlBolla_ctl23_hlDettaglio" href="/2011977">SUPERTOPOLINO B</a></strong></td>
+            <td></td>
+            <td></td>
+            <td><span id="ctl00_MainContent_dlBolla_ctl23_lblNumero">63700</span></td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">14,90 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlBolla_ctl23_lblPrezzoNetto" title="12,2955 €">12,2955 €</span>
+            </td>
+            <td style="text-align:center"></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl23_lblCopie">1</span>
+              <input name="ctl00$MainContent$dlBolla$ctl23$txtVerificato" type="text" value="1" maxlength="4" id="txtVerificato" class=" textEntryBolla" />
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl23_lblDifferenza" style="font-weight: 700;">-</span>
+              <span id="ctl00_MainContent_dlBolla_ctl23_lblMancante" title="Quantità segnalata"></span>
+            </td>
+            <td></td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlBolla_ctl23_lblTestata">5736</span></td>
+            <td style="text-align:center"><span title="Prodotto editoriale">PE</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlBolla_ctl24_hlDettaglio" href="/2012020">TEX WILLER</a></strong></td>
+            <td></td>
+            <td></td>
+            <td><span id="ctl00_MainContent_dlBolla_ctl24_lblNumero">60096</span></td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">4,50 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlBolla_ctl24_lblPrezzoNetto" title="3,6553 €">3,6553 €</span>
+            </td>
+            <td style="text-align:center"></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl24_lblCopie">6</span>
+              <input name="ctl00$MainContent$dlBolla$ctl24$txtVerificato" type="text" value="6" maxlength="4" id="txtVerificato" class=" textEntryBolla" />
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl24_lblDifferenza" style="font-weight: 700;">-</span>
+              <span id="ctl00_MainContent_dlBolla_ctl24_lblMancante" title="Quantità segnalata"></span>
+            </td>
+            <td></td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlBolla_ctl24_lblTestata">9273</span></td>
+            <td style="text-align:center"><span title="Prodotto editoriale">PE</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlBolla_ctl25_hlDettaglio" href="/2011993">TOPOLINO</a></strong></td>
+            <td></td>
+            <td></td>
+            <td><span id="ctl00_MainContent_dlBolla_ctl25_lblNumero">63700</span></td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">3,50 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlBolla_ctl25_lblPrezzoNetto" title="2,843 €">2,843 €</span>
+            </td>
+            <td style="text-align:center"></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl25_lblCopie">1</span>
+              <input name="ctl00$MainContent$dlBolla$ctl25$txtVerificato" type="text" value="1" maxlength="4" id="txtVerificato" class=" textEntryBolla" />
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl25_lblDifferenza" style="font-weight: 700;">-</span>
+              <span id="ctl00_MainContent_dlBolla_ctl25_lblMancante" title="Quantità segnalata"></span>
+            </td>
+            <td></td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlBolla_ctl25_lblTestata">6686</span></td>
+            <td style="text-align:center"><span title="Prodotto editoriale">PE</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlBolla_ctl26_hlDettaglio" href="/2011970">VITA</a></strong></td>
+            <td></td>
+            <td></td>
+            <td><span id="ctl00_MainContent_dlBolla_ctl26_lblNumero">60010</span></td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">7,00 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlBolla_ctl26_lblPrezzoNetto" title="5,686 €">5,686 €</span>
+            </td>
+            <td style="text-align:center"></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl26_lblCopie">1</span>
+              <input name="ctl00$MainContent$dlBolla$ctl26$txtVerificato" type="text" value="1" maxlength="4" id="txtVerificato" class=" textEntryBolla" />
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl26_lblDifferenza" style="font-weight: 700;">-</span>
+              <span id="ctl00_MainContent_dlBolla_ctl26_lblMancante" title="Quantità segnalata"></span>
+            </td>
+            <td></td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlBolla_ctl26_lblTestata">5476</span></td>
+            <td style="text-align:center"><span title="Prodotto editoriale">PE</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlBolla_ctl27_hlDettaglio" href="/2012033">ALBUM SNACK CLUB</a></strong></td>
+            <td></td>
+            <td></td>
+            <td><span id="ctl00_MainContent_dlBolla_ctl27_lblNumero">90002</span></td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">4,99 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlBolla_ctl27_lblPrezzoNetto" title="3,8068 €">3,8068 €</span>
+            </td>
+            <td style="text-align:center"><img id="imgCd" title="22/04/2027" alt="Conto deposito" />
+           <br />
+           <span id="lblDataCd">22/04/2027</span></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl27_lblCopie">2</span>
+              <input name="ctl00$MainContent$dlBolla$ctl27$txtVerificato" type="text" value="2" maxlength="4" id="txtVerificato" class=" textEntryBolla" />
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl27_lblDifferenza" style="font-weight: 700;">-</span>
+              <span id="ctl00_MainContent_dlBolla_ctl27_lblMancante" title="Quantità segnalata"></span>
+            </td>
+            <td></td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlBolla_ctl27_lblTestata">9570</span></td>
+            <td style="text-align:center"><span title="Prodotto editoriale">PE</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlBolla_ctl28_hlDettaglio" href="/2012027">AUTO DA SOGNO</a></strong></td>
+            <td></td>
+            <td></td>
+            <td><span id="ctl00_MainContent_dlBolla_ctl28_lblNumero">60001</span></td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">9,95 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlBolla_ctl28_lblPrezzoNetto" title="7,6575 €">7,6575 €</span>
+            </td>
+            <td style="text-align:center"><img id="imgCd" title="30/01/2027" alt="Conto deposito" />
+           <br />
+           <span id="lblDataCd">30/01/2027</span></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl28_lblCopie">1</span>
+              <input name="ctl00$MainContent$dlBolla$ctl28$txtVerificato" type="text" value="1" maxlength="4" id="txtVerificato" class=" textEntryBolla" />
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl28_lblDifferenza" style="font-weight: 700;">-</span>
+              <span id="ctl00_MainContent_dlBolla_ctl28_lblMancante" title="Quantità segnalata"></span>
+            </td>
+            <td></td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlBolla_ctl28_lblTestata">9492</span></td>
+            <td style="text-align:center"><span title="Prodotto editoriale">PE</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlBolla_ctl29_hlDettaglio" href="/2012032">BUSTINE SNACK CLUB</a></strong></td>
+            <td></td>
+            <td></td>
+            <td><span id="ctl00_MainContent_dlBolla_ctl29_lblNumero">90002</span></td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">1,50 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlBolla_ctl29_lblPrezzoNetto" title="1,1443 €">1,1443 €</span>
+            </td>
+            <td style="text-align:center"><img id="imgCd" title="23/04/2027" alt="Conto deposito" />
+           <br />
+           <span id="lblDataCd">23/04/2027</span></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl29_lblCopie">30</span>
+              <input name="ctl00$MainContent$dlBolla$ctl29$txtVerificato" type="text" value="30" maxlength="4" id="txtVerificato" class=" textEntryBolla" />
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl29_lblDifferenza" style="font-weight: 700;">-</span>
+              <span id="ctl00_MainContent_dlBolla_ctl29_lblMancante" title="Quantità segnalata"></span>
+            </td>
+            <td></td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlBolla_ctl29_lblTestata">9569</span></td>
+            <td style="text-align:center"><span title="Prodotto editoriale">PE</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlBolla_ctl30_hlDettaglio" href="/2011948">CAL. CAVALLI MAGNUM</a></strong></td>
+            <td></td>
+            <td></td>
+            <td><span id="ctl00_MainContent_dlBolla_ctl30_lblNumero">60011</span></td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">8,90 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlBolla_ctl30_lblPrezzoNetto" title="7,2293 €">7,2293 €</span>
+            </td>
+            <td style="text-align:center"><img id="imgCd" title="20/02/2027" alt="Conto deposito" />
+           <br />
+           <span id="lblDataCd">20/02/2027</span></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl30_lblCopie">2</span>
+              <input name="ctl00$MainContent$dlBolla$ctl30$txtVerificato" type="text" value="2" maxlength="4" id="txtVerificato" class=" textEntryBolla" />
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl30_lblDifferenza" style="font-weight: 700;">-</span>
+              <span id="ctl00_MainContent_dlBolla_ctl30_lblMancante" title="Quantità segnalata"></span>
+            </td>
+            <td></td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlBolla_ctl30_lblTestata">3226</span></td>
+            <td style="text-align:center"><span title="Prodotto editoriale">PE</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlBolla_ctl31_hlDettaglio" href="/2012059">CAL. CUCCIOLI DA TAVOLO</a></strong></td>
+            <td></td>
+            <td></td>
+            <td><span id="ctl00_MainContent_dlBolla_ctl31_lblNumero">60006</span></td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">6,90 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlBolla_ctl31_lblPrezzoNetto" title="5,6047 €">5,6047 €</span>
+            </td>
+            <td style="text-align:center"><img id="imgCd" title="18/02/2027" alt="Conto deposito" />
+           <br />
+           <span id="lblDataCd">18/02/2027</span></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl31_lblCopie">1</span>
+              <input name="ctl00$MainContent$dlBolla$ctl31$txtVerificato" type="text" value="1" maxlength="4" id="txtVerificato" class=" textEntryBolla" />
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl31_lblDifferenza" style="font-weight: 700;">-</span>
+              <span id="ctl00_MainContent_dlBolla_ctl31_lblMancante" title="Quantità segnalata"></span>
+            </td>
+            <td></td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlBolla_ctl31_lblTestata">25236</span></td>
+            <td style="text-align:center"><span title="Prodotto editoriale">PE</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlBolla_ctl32_hlDettaglio" href="/2012057">CALEN.AGENDA GATTI</a></strong></td>
+            <td></td>
+            <td></td>
+            <td><span id="ctl00_MainContent_dlBolla_ctl32_lblNumero">60007</span></td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">6,90 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlBolla_ctl32_lblPrezzoNetto" title="5,6047 €">5,6047 €</span>
+            </td>
+            <td style="text-align:center"><img id="imgCd" title="19/02/2027" alt="Conto deposito" />
+           <br />
+           <span id="lblDataCd">19/02/2027</span></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl32_lblCopie">4</span>
+              <input name="ctl00$MainContent$dlBolla$ctl32$txtVerificato" type="text" value="4" maxlength="4" id="txtVerificato" class=" textEntryBolla" />
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl32_lblDifferenza" style="font-weight: 700;">-</span>
+              <span id="ctl00_MainContent_dlBolla_ctl32_lblMancante" title="Quantità segnalata"></span>
+            </td>
+            <td></td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlBolla_ctl32_lblTestata">22726</span></td>
+            <td style="text-align:center"><span title="Prodotto editoriale">PE</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlBolla_ctl33_hlDettaglio" href="/2012024">CASA CHIC SPECIALE N</a></strong></td>
+            <td></td>
+            <td></td>
+            <td><span id="ctl00_MainContent_dlBolla_ctl33_lblNumero">60001</span></td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">9,90 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlBolla_ctl33_lblPrezzoNetto" title="7,5525 €">7,5525 €</span>
+            </td>
+            <td style="text-align:center"><img id="imgCd" title="05/12/2026" alt="Conto deposito" />
+           <br />
+           <span id="lblDataCd">05/12/2026</span></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl33_lblCopie">1</span>
+              <input name="ctl00$MainContent$dlBolla$ctl33$txtVerificato" type="text" value="1" maxlength="4" id="txtVerificato" class=" textEntryBolla" />
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl33_lblDifferenza" style="font-weight: 700;">-</span>
+              <span id="ctl00_MainContent_dlBolla_ctl33_lblMancante" title="Quantità segnalata"></span>
+            </td>
+            <td></td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlBolla_ctl33_lblTestata">9470</span></td>
+            <td style="text-align:center"><span title="Prodotto editoriale">PE</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlBolla_ctl34_hlDettaglio" href="/2012071">ELLE DECOR ALLEGATI</a></strong></td>
+            <td></td>
+            <td></td>
+            <td><span id="ctl00_MainContent_dlBolla_ctl34_lblNumero">60010</span></td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">5,90 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlBolla_ctl34_lblPrezzoNetto" title="4,7925 €">4,7925 €</span>
+            </td>
+            <td style="text-align:center"><img id="imgCd" title="02/12/2026" alt="Conto deposito" />
+           <br />
+           <span id="lblDataCd">02/12/2026</span></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl34_lblCopie">1</span>
+              <input name="ctl00$MainContent$dlBolla$ctl34$txtVerificato" type="text" value="1" maxlength="4" id="txtVerificato" class=" textEntryBolla" />
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl34_lblDifferenza" style="font-weight: 700;">-</span>
+              <span id="ctl00_MainContent_dlBolla_ctl34_lblMancante" title="Quantità segnalata"></span>
+            </td>
+            <td></td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlBolla_ctl34_lblTestata">29942</span></td>
+            <td style="text-align:center"><span title="Prodotto editoriale">PE</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlBolla_ctl35_hlDettaglio" href="/2012035">FOOD&amp;WINE</a></strong></td>
+            <td></td>
+            <td></td>
+            <td><span id="ctl00_MainContent_dlBolla_ctl35_lblNumero">60006</span></td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">6,50 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlBolla_ctl35_lblPrezzoNetto" title="5,2798 €">5,2798 €</span>
+            </td>
+            <td style="text-align:center"><img id="imgCd" title="09/12/2026" alt="Conto deposito" />
+           <br />
+           <span id="lblDataCd">09/12/2026</span></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl35_lblCopie">1</span>
+              <input name="ctl00$MainContent$dlBolla$ctl35$txtVerificato" type="text" value="1" maxlength="4" id="txtVerificato" class=" textEntryBolla" />
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl35_lblDifferenza" style="font-weight: 700;">-</span>
+              <span id="ctl00_MainContent_dlBolla_ctl35_lblMancante" title="Quantità segnalata"></span>
+            </td>
+            <td></td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlBolla_ctl35_lblTestata">10357</span></td>
+            <td style="text-align:center"><span title="Prodotto editoriale">PE</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlBolla_ctl36_hlDettaglio" href="/2011927">FRIGGITRICI AD ARIA</a></strong></td>
+            <td></td>
+            <td></td>
+            <td><span id="ctl00_MainContent_dlBolla_ctl36_lblNumero">60002</span></td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">7,90 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlBolla_ctl36_lblPrezzoNetto" title="6,0268 €">6,0268 €</span>
+            </td>
+            <td style="text-align:center"><img id="imgCd" title="06/12/2026" alt="Conto deposito" />
+           <br />
+           <span id="lblDataCd">06/12/2026</span></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl36_lblCopie">1</span>
+              <input name="ctl00$MainContent$dlBolla$ctl36$txtVerificato" type="text" value="1" maxlength="4" id="txtVerificato" class=" textEntryBolla" />
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl36_lblDifferenza" style="font-weight: 700;">-</span>
+              <span id="ctl00_MainContent_dlBolla_ctl36_lblMancante" title="Quantità segnalata"></span>
+            </td>
+            <td></td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlBolla_ctl36_lblTestata">1323</span></td>
+            <td style="text-align:center"><span title="Prodotto editoriale">PE</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlBolla_ctl37_hlDettaglio" href="/2011922">GIOCA CON PEPPA COMP</a></strong></td>
+            <td></td>
+            <td></td>
+            <td><span id="ctl00_MainContent_dlBolla_ctl37_lblNumero">60017</span></td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">7,99 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlBolla_ctl37_lblPrezzoNetto" title="6,5933 €">6,5933 €</span>
+            </td>
+            <td style="text-align:center"><img id="imgCd" title="06/12/2026" alt="Conto deposito" />
+           <br />
+           <span id="lblDataCd">06/12/2026</span></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl37_lblCopie">1</span>
+              <input name="ctl00$MainContent$dlBolla$ctl37$txtVerificato" type="text" value="1" maxlength="4" id="txtVerificato" class=" textEntryBolla" />
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl37_lblDifferenza" style="font-weight: 700;">-</span>
+              <span id="ctl00_MainContent_dlBolla_ctl37_lblMancante" title="Quantità segnalata"></span>
+            </td>
+            <td></td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlBolla_ctl37_lblTestata">669</span></td>
+            <td style="text-align:center"><span title="Prodotto editoriale">PE</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlBolla_ctl38_hlDettaglio" href="/2012021">GLI AMICI</a></strong></td>
+            <td></td>
+            <td></td>
+            <td><span id="ctl00_MainContent_dlBolla_ctl38_lblNumero">60001</span></td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">4,95 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlBolla_ctl38_lblPrezzoNetto" title="3,8095 €">3,8095 €</span>
+            </td>
+            <td style="text-align:center"><img id="imgCd" title="03/02/2027" alt="Conto deposito" />
+           <br />
+           <span id="lblDataCd">03/02/2027</span></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl38_lblCopie">1</span>
+              <input name="ctl00$MainContent$dlBolla$ctl38$txtVerificato" type="text" value="1" maxlength="4" id="txtVerificato" class=" textEntryBolla" />
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl38_lblDifferenza" style="font-weight: 700;">-</span>
+              <span id="ctl00_MainContent_dlBolla_ctl38_lblMancante" title="Quantità segnalata"></span>
+            </td>
+            <td></td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlBolla_ctl38_lblTestata">9365</span></td>
+            <td style="text-align:center"><span title="Prodotto editoriale">PE</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlBolla_ctl39_hlDettaglio" href="/2011957">IL LIBRO DEI CRUCIPU</a></strong></td>
+            <td></td>
+            <td></td>
+            <td><span id="ctl00_MainContent_dlBolla_ctl39_lblNumero">60004</span></td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">5,90 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlBolla_ctl39_lblPrezzoNetto" title="4,7925 €">4,7925 €</span>
+            </td>
+            <td style="text-align:center"><img id="imgCd" title="06/12/2026" alt="Conto deposito" />
+           <br />
+           <span id="lblDataCd">06/12/2026</span></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl39_lblCopie">1</span>
+              <input name="ctl00$MainContent$dlBolla$ctl39$txtVerificato" type="text" value="1" maxlength="4" id="txtVerificato" class=" textEntryBolla" />
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl39_lblDifferenza" style="font-weight: 700;">-</span>
+              <span id="ctl00_MainContent_dlBolla_ctl39_lblMancante" title="Quantità segnalata"></span>
+            </td>
+            <td></td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlBolla_ctl39_lblTestata">4118</span></td>
+            <td style="text-align:center"><span title="Prodotto editoriale">PE</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlBolla_ctl40_hlDettaglio" href="/2012070">IL PIANETA DEI GIOCH</a></strong></td>
+            <td></td>
+            <td></td>
+            <td><span id="ctl00_MainContent_dlBolla_ctl40_lblNumero">60034</span></td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">8,90 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlBolla_ctl40_lblPrezzoNetto" title="7,3443 €">7,3443 €</span>
+            </td>
+            <td style="text-align:center"><img id="imgCd" title="06/12/2026" alt="Conto deposito" />
+           <br />
+           <span id="lblDataCd">06/12/2026</span></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl40_lblCopie">1</span>
+              <input name="ctl00$MainContent$dlBolla$ctl40$txtVerificato" type="text" value="1" maxlength="4" id="txtVerificato" class=" textEntryBolla" />
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl40_lblDifferenza" style="font-weight: 700;">-</span>
+              <span id="ctl00_MainContent_dlBolla_ctl40_lblMancante" title="Quantità segnalata"></span>
+            </td>
+            <td></td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlBolla_ctl40_lblTestata">29728</span></td>
+            <td style="text-align:center"><span title="Prodotto editoriale">PE</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlBolla_ctl41_hlDettaglio" href="/2012025">LANCIA 120 ANNIVERSA</a></strong></td>
+            <td></td>
+            <td></td>
+            <td><span id="ctl00_MainContent_dlBolla_ctl41_lblNumero">60001</span></td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">12,90 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlBolla_ctl41_lblPrezzoNetto" title="10,4784 €">10,4784 €</span>
+            </td>
+            <td style="text-align:center"><img id="imgCd" title="06/12/2026" alt="Conto deposito" />
+           <br />
+           <span id="lblDataCd">06/12/2026</span></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl41_lblCopie">3</span>
+              <input name="ctl00$MainContent$dlBolla$ctl41$txtVerificato" type="text" value="3" maxlength="4" id="txtVerificato" class=" textEntryBolla" />
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl41_lblDifferenza" style="font-weight: 700;">-</span>
+              <span id="ctl00_MainContent_dlBolla_ctl41_lblMancante" title="Quantità segnalata"></span>
+            </td>
+            <td></td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlBolla_ctl41_lblTestata">9473</span></td>
+            <td style="text-align:center"><span title="Prodotto editoriale">PE</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlBolla_ctl42_hlDettaglio" href="/2012031">NIPPUR</a></strong></td>
+            <td></td>
+            <td></td>
+            <td><span id="ctl00_MainContent_dlBolla_ctl42_lblNumero">60001</span></td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">12,90 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlBolla_ctl42_lblPrezzoNetto" title="9,8412 €">9,8412 €</span>
+            </td>
+            <td style="text-align:center"><img id="imgCd" title="05/12/2026" alt="Conto deposito" />
+           <br />
+           <span id="lblDataCd">05/12/2026</span></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl42_lblCopie">1</span>
+              <input name="ctl00$MainContent$dlBolla$ctl42$txtVerificato" type="text" value="1" maxlength="4" id="txtVerificato" class=" textEntryBolla" />
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl42_lblDifferenza" style="font-weight: 700;">-</span>
+              <span id="ctl00_MainContent_dlBolla_ctl42_lblMancante" title="Quantità segnalata"></span>
+            </td>
+            <td></td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlBolla_ctl42_lblTestata">9551</span></td>
+            <td style="text-align:center"><span title="Prodotto editoriale">PE</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlBolla_ctl43_hlDettaglio" href="/2012060">PANORAMA COLLEZIONE</a></strong></td>
+            <td></td>
+            <td></td>
+            <td><span id="ctl00_MainContent_dlBolla_ctl43_lblNumero">60004</span></td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">2,00 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlBolla_ctl43_lblPrezzoNetto" title="1,5258 €">1,5258 €</span>
+            </td>
+            <td style="text-align:center"><img id="imgCd" title="06/12/2026" alt="Conto deposito" />
+           <br />
+           <span id="lblDataCd">06/12/2026</span></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl43_lblCopie">1</span>
+              <input name="ctl00$MainContent$dlBolla$ctl43$txtVerificato" type="text" value="1" maxlength="4" id="txtVerificato" class=" textEntryBolla" />
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl43_lblDifferenza" style="font-weight: 700;">-</span>
+              <span id="ctl00_MainContent_dlBolla_ctl43_lblMancante" title="Quantità segnalata"></span>
+            </td>
+            <td></td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlBolla_ctl43_lblTestata">26178</span></td>
+            <td style="text-align:center"><span title="Prodotto editoriale">PE</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlBolla_ctl44_hlDettaglio" href="/2011955">PARTY TIME</a></strong></td>
+            <td></td>
+            <td></td>
+            <td><span id="ctl00_MainContent_dlBolla_ctl44_lblNumero">60079</span></td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">9,90 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlBolla_ctl44_lblPrezzoNetto" title="7,7141 €">7,7141 €</span>
+            </td>
+            <td style="text-align:center"><img id="imgCd" title="07/12/2026" alt="Conto deposito" />
+           <br />
+           <span id="lblDataCd">07/12/2026</span></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl44_lblCopie">1</span>
+              <input name="ctl00$MainContent$dlBolla$ctl44$txtVerificato" type="text" value="1" maxlength="4" id="txtVerificato" class=" textEntryBolla" />
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl44_lblDifferenza" style="font-weight: 700;">-</span>
+              <span id="ctl00_MainContent_dlBolla_ctl44_lblMancante" title="Quantità segnalata"></span>
+            </td>
+            <td></td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlBolla_ctl44_lblTestata">3986</span></td>
+            <td style="text-align:center"><span title="Prodotto editoriale">PE</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlBolla_ctl45_hlDettaglio" href="/2011943">PORSCHE MAGAZINE</a></strong></td>
+            <td></td>
+            <td></td>
+            <td><span id="ctl00_MainContent_dlBolla_ctl45_lblNumero">60002</span></td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">9,90 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlBolla_ctl45_lblPrezzoNetto" title="8,0416 €">8,0416 €</span>
+            </td>
+            <td style="text-align:center"><img id="imgCd" title="05/12/2026" alt="Conto deposito" />
+           <br />
+           <span id="lblDataCd">05/12/2026</span></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl45_lblCopie">1</span>
+              <input name="ctl00$MainContent$dlBolla$ctl45$txtVerificato" type="text" value="1" maxlength="4" id="txtVerificato" class=" textEntryBolla" />
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl45_lblDifferenza" style="font-weight: 700;">-</span>
+              <span id="ctl00_MainContent_dlBolla_ctl45_lblMancante" title="Quantità segnalata"></span>
+            </td>
+            <td></td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlBolla_ctl45_lblTestata">2719</span></td>
+            <td style="text-align:center"><span title="Prodotto editoriale">PE</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlBolla_ctl46_hlDettaglio" href="/2005549">SCAMBIA &amp; G.GIAL.PM</a></strong></td>
+            <td></td>
+            <td></td>
+            <td><span id="ctl00_MainContent_dlBolla_ctl46_lblNumero">60297</span></td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">49,90 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlBolla_ctl46_lblPrezzoNetto" title="41,1775 €">41,1775 €</span>
+            </td>
+            <td style="text-align:center"><img id="imgCd" title="30/10/2026" alt="Conto deposito" />
+           <br />
+           <span id="lblDataCd">30/10/2026</span></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl46_lblCopie">4</span>
+              <input name="ctl00$MainContent$dlBolla$ctl46$txtVerificato" type="text" value="4" maxlength="4" id="txtVerificato" class=" textEntryBolla" />
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl46_lblDifferenza" style="font-weight: 700;">-</span>
+              <span id="ctl00_MainContent_dlBolla_ctl46_lblMancante" title="Quantità segnalata"></span>
+            </td>
+            <td></td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlBolla_ctl46_lblTestata">9182</span></td>
+            <td style="text-align:center"><span title="Prodotto editoriale">PE</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlBolla_ctl47_hlDettaglio" href="/2005530">SCAMBIA E GIOCA</a></strong></td>
+            <td></td>
+            <td></td>
+            <td><span id="ctl00_MainContent_dlBolla_ctl47_lblNumero">60297</span></td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">24,90 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlBolla_ctl47_lblPrezzoNetto" title="20,529 €">20,529 €</span>
+            </td>
+            <td style="text-align:center"><img id="imgCd" title="30/10/2026" alt="Conto deposito" />
+           <br />
+           <span id="lblDataCd">30/10/2026</span></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl47_lblCopie">2</span>
+              <input name="ctl00$MainContent$dlBolla$ctl47$txtVerificato" type="text" value="2" maxlength="4" id="txtVerificato" class=" textEntryBolla" />
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl47_lblDifferenza" style="font-weight: 700;">-</span>
+              <span id="ctl00_MainContent_dlBolla_ctl47_lblMancante" title="Quantità segnalata"></span>
+            </td>
+            <td></td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlBolla_ctl47_lblTestata">1612</span></td>
+            <td style="text-align:center"><span title="Prodotto editoriale">PE</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlBolla_ctl48_hlDettaglio" href="/2012042">TEX MAXI</a></strong></td>
+            <td></td>
+            <td></td>
+            <td><span id="ctl00_MainContent_dlBolla_ctl48_lblNumero">60039</span></td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">11,00 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlBolla_ctl48_lblPrezzoNetto" title="8,9351 €">8,9351 €</span>
+            </td>
+            <td style="text-align:center"><img id="imgCd" title="09/12/2026" alt="Conto deposito" />
+           <br />
+           <span id="lblDataCd">09/12/2026</span></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl48_lblCopie">8</span>
+              <input name="ctl00$MainContent$dlBolla$ctl48$txtVerificato" type="text" value="8" maxlength="4" id="txtVerificato" class=" textEntryBolla" />
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl48_lblDifferenza" style="font-weight: 700;">-</span>
+              <span id="ctl00_MainContent_dlBolla_ctl48_lblMancante" title="Quantità segnalata"></span>
+            </td>
+            <td></td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlBolla_ctl48_lblTestata">13670</span></td>
+            <td style="text-align:center"><span title="Prodotto editoriale">PE</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlBolla_ctl49_hlDettaglio" href="/2012028">TOP COLLECTION 60</a></strong></td>
+            <td></td>
+            <td></td>
+            <td><span id="ctl00_MainContent_dlBolla_ctl49_lblNumero">60033</span></td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">6,00 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlBolla_ctl49_lblPrezzoNetto" title="4,9512 €">4,9512 €</span>
+            </td>
+            <td style="text-align:center"><img id="imgCd" title="21/10/2026" alt="Conto deposito" />
+           <br />
+           <span id="lblDataCd">21/10/2026</span></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl49_lblCopie">36</span>
+              <input name="ctl00$MainContent$dlBolla$ctl49$txtVerificato" type="text" value="36" maxlength="4" id="txtVerificato" class=" textEntryBolla" />
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlBolla_ctl49_lblDifferenza" style="font-weight: 700;">-</span>
+              <span id="ctl00_MainContent_dlBolla_ctl49_lblMancante" title="Quantità segnalata"></span>
+            </td>
+            <td></td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlBolla_ctl49_lblTestata">9504</span></td>
+            <td style="text-align:center"><span title="Prodotto editoriale">PE</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr></tbody></table>
+</body>
+</html>
