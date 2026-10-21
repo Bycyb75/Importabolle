@@ -45,7 +45,9 @@ app.get('/api/cache/status', async (req, res) => {
 
 // Forza un ciclo di scaricamento immediato (utile per test/debug)
 app.post('/api/cache/forza-ciclo', async (req, res) => {
-  cicloCompleto(); // non awaited: risponde subito, il ciclo gira in background
+  cicloCompleto().catch((err) => {
+    console.error('[SERVER] ❌ Errore nel ciclo forzato:', err.message);
+  });
   res.json({ success: true, message: 'Ciclo avviato in background' });
 });
 
