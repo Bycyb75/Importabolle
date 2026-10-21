@@ -1,0 +1,31 @@
+app = "md-scraper-lacoccinella"
+primary_region = "fra"
+
+[build]
+
+[env]
+  PORT = "8080"
+  DATA_DIR = "/data"
+  RETRY_MINUTES = "20"
+  # Quanti giorni (oggi incluso) lo scheduler tenta attivamente di
+  # recuperare/completare ad ogni ciclo (vedi src/run.js). Ridotto a 7
+  # (invece del default di 14) per restare comodamente entro il limite di
+  # runtime di 5 minuti dell'account Fly.io trial e la RAM limitata (256mb)
+  # della VM. Non cancella mai i dati già scaricati oltre questa finestra:
+  # quelli restano per sempre in history.json.
+  BACKFILL_GIORNI = "7"
+
+[[mounts]]
+  source = "data_vol"
+  destination = "/data"
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = false
+  auto_start_machines = true
+  min_machines_running = 1
+
+[[vm]]
+  size = "shared-cpu-1x"
+  memory = "256mb"

@@ -1,0 +1,84 @@
+name: Scrape and publish
+
+on:
+  schedule:
+    - cron: '*/20 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape-and-publish
+  cancel-in-progress: false
+
+jobs:
+  scrape-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out scraper
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Restore published history
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git ls-remote --exit-code --heads origin gh-pages >/dev/null 2>&1; then
+            git fetch origin gh-pages
+            git show FETCH_HEAD:data/history.json > data/history.json
+          fi
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Scrape and update history
+        run: npm run scrape
+        env:
+          MD_BASE_URL: ${{ secrets.MD_BASE_URL }}
+          MD_USERNAME: ${{ secrets.MD_USERNAME }}
+          MD_PASSWORD: ${{ secrets.MD_PASSWORD }}
+          BACKFILL_GIORNI: '7'
+
+      - name: Generate static pages
+        shell: bash
+        run: |
+          repo_name="${GITHUB_REPOSITORY#*/}"
+          owner="${GITHUB_REPOSITORY%%/*}"
+          if [[ "$repo_name" == "$owner.github.io" ]]; then
+            export PUBLIC_BASE_PATH=''
+          else
+            export PUBLIC_BASE_PATH="/$repo_name"
+          fi
+          echo "PUBLIC_BASE_PATH=$PUBLIC_BASE_PATH" >> "$GITHUB_ENV"
+          npm run publish:static
+
+      - name: Publish to GitHub Pages
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          git -C site init -b gh-pages
+          git -C site config user.name 'github-actions[bot]'
+          git -C site config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git -C site remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+
+          if git ls-remote --exit-code --heads origin gh-pages >/dev/null 2>&1; then
+            git -C site fetch --depth=1 origin gh-pages
+            git -C site reset --mixed FETCH_HEAD
+          fi
+
+          git -C site add --all
+          if git -C site diff --cached --quiet; then
+            echo 'Nessun aggiornamento da pubblicare.'
+            exit 0
+          fi
+
+          git -C site commit -m 'Aggiorna dati scraper' -m 'Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>'
+          git -C site push origin gh-pages

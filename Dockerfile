@@ -1,13 +1,15 @@
-FROM mcr.microsoft.com/playwright:v1.56.1-jammy
+# Immagine minimale per eseguire il servizio md-scraper su Fly.io
+FROM node:22-slim
 
 WORKDIR /app
 
-COPY package.json ./
-RUN npm install --omit=dev
+COPY package*.json ./
+RUN npm ci --omit=dev
 
 COPY . .
 
-ENV PORT=8090
-EXPOSE 8090
+ENV NODE_ENV=production
+ENV PORT=8080
+EXPOSE 8080
 
 CMD ["node", "server.js"]
