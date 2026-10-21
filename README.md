@@ -1,53 +1,97 @@
 # Importa Bolle Automatico
 
-Servizio esterno che scarica automaticamente le bolle I2 (arrivi/rese, quotidiani/mista) ogni 20 minuti e le tiene in una cache propria, pronta per essere interrogata dal Gestionale Edicola quando li collegheremo.
+Scarica periodicamente le bolle I2 (arrivi/rese, quotidiani/mista) e pubblica
+la cache come JSON statico. GitHub Actions avvia un'esecuzione ogni 20 minuti:
+quando non ci sono bolle da scaricare, il job salta login e richieste al portale.
+I job non mantengono una macchina accesa.
 
-Nessuna dipendenza da Render: le credenziali I2 si impostano come variabili d'ambiente e i dati scaricati si salvano in un file locale (`data/cache.json`).
+## Configurazione GitHub Actions e Pages
 
-## Come funziona
+1. Nel repository GitHub apri **Settings → Secrets and variables → Actions**
+   e aggiungi questi repository secrets:
+   - `I2_USERNAME`
+   - `I2_PASSWORD`
+   - `I2_EDICOLAID` (per esempio `1630`)
+2. In **Settings → Actions → General**, consenti ai workflow di leggere e
+   scrivere contenuti del repository.
+3. Avvia **Actions → Scrape and publish cache → Run workflow**.
+4. Dopo la prima esecuzione, apri **Settings → Pages**, seleziona **Deploy from
+   a branch**, branch `gh-pages`, cartella `/ (root)`.
+5. Attendi che GitHub Pages completi la pubblicazione. L'indirizzo sarà
+   `https://bycyb75.github.io/Importabolle/`.
 
-1. Ogni ciclo (default: 20 minuti) usa le credenziali I2 configurate tramite variabili d'ambiente (`I2_USERNAME`, `I2_PASSWORD`, `I2_EDICOLAID`).
-2. Prova a scaricare: oggi, domani, e gli ultimi N giorni (default 14) per tutte le combinazioni arrivi/rese × quotidiani/mista non ancora scaricate con successo.
-3. Salva il risultato in un file locale (`data/cache.json`, creato automaticamente).
-4. Dopo un numero massimo di tentativi falliti/vuoti (default 15) smette di riprovare per quella combinazione specifica.
+Le esecuzioni pianificate possono partire in ritardo e non sono garantite al
+minuto. Se mancano i secrets o il login fallisce, il job risulta fallito e la
+cache precedente resta pubblicata. Il repository e la cache su Pages sono
+pubblici: non inserire credenziali o dati che non vuoi rendere pubblici.
+Le credenziali sono usate soltanto come secrets dal job e non vengono
+pubblicate.
 
-## API esposte
+La prima esecuzione parte dalla cache disponibile nel branch `gh-pages`.
+La cache che si trova solo su un eventuale vecchio container Northflank non
+viene trasferita automaticamente. Dopo aver verificato che Pages funzioni,
+ferma il servizio Northflank per evitare scraping duplicati.
 
-- `GET /health` — controllo di stato
-- `GET /api/cache/bolla?edicolaid=&tipo=&categoria=&data=DD/MM/YYYY` — restituisce la bolla se già in cache
-- `GET /api/cache/status` — elenco completo dello stato della cache (debug/monitoraggio)
-- `POST /api/cache/forza-ciclo` — avvia subito un ciclo di scaricamento (senza attendere i 20 minuti)
+## API JSON statiche
 
-## Test in locale
+GitHub Pages non esegue un server Node e non supporta la vecchia API con query
+string (`/api/cache/bolla?edicolaid=...`). Scarica invece la stessa risposta
+JSON da un URL con i parametri nel percorso:
+
+```text
+GET https://bycyb75.github.io/Importabolle/api/cache/bolla/1630/arrivi/quotidiani/2026-10-21.json
+GET https://bycyb75.github.io/Importabolle/api/cache/bolla/1630/rese/mista/2026-10-21.json
+```
+
+La struttura della risposta (`success`, `disponibile`, `righe`,
+`scaricato_at` o stato di attesa) resta compatibile. La data nel percorso è
+`AAAA-MM-GG`; tipo è `arrivi` o `rese`; categoria è `quotidiani` o `mista`.
+Per la cache completa:
+
+```text
+GET /Importabolle/data/cache.json
+GET /Importabolle/api/cache/status.json
+```
+
+Per questo repository, l'indirizzo completo è:
+
+```text
+https://bycyb75.github.io/Importabolle/api/cache/bolla/1630/arrivi/quotidiani/2026-10-21.json
+```
+
+La pagina iniziale elenca i link alla cache e allo stato.
+
+## Esecuzione manuale in locale
 
 ```powershell
 npm install
-copy .env.example .env   # poi modifica I2_USERNAME / I2_PASSWORD con le tue credenziali I2
-node server.js
+copy .env.example .env
+npm start
 ```
 
-## Deploy su Northflank (piano gratuito, consigliato, nessuna carta richiesta)
+Inserisci le credenziali I2 in `.env`. Per fare un singolo ciclo senza
+avviare il server:
 
-1. Il codice è già su GitHub: [Bycyb75/Importabolle](https://github.com/Bycyb75/Importabolle).
-2. Vai su [northflank.com](https://northflank.com) → registrati gratis (anche con account GitHub, nessuna carta richiesta per il piano Free).
-3. Crea un nuovo **Project** (un contenitore per i tuoi servizi).
-4. Dentro il progetto: **Create new → Service → Deployment**.
-5. **Connect a repository** → autorizza GitHub → scegli `Bycyb75/Importabolle`, branch `main`.
-6. Build: **Dockerfile** (rilevato automaticamente, niente da cambiare).
-7. Piano/risorse: scegli il piano **Free**.
-8. **Networking**: porta **8090**, protocollo **HTTP**, accessibilità **Public**.
-9. **Environment variables**:
-   - `I2_USERNAME` → il tuo username del portale I2 (es. `427.lacoccinella`)
-   - `I2_PASSWORD` → la tua password I2
-   - `I2_EDICOLAID` → `1630` (o il tuo codice edicola)
-   - `INTERVALLO_MINUTI` → `20`
-   - `GIORNI_INDIETRO` → `14`
-   - `MAX_TENTATIVI` → `15`
-10. **Deploy**. Northflank ti darà un URL pubblico tipo `https://importa-bolle-automatico--xxxxx.code.run`.
+```powershell
+npm run scrape:once
+```
 
-> ⚠️ Il file `data/cache.json` vive sul disco del container: su alcuni piani gratuiti può non sopravvivere a un redeploy. Non è un problema grave: al riavvio lo scheduler ricomincia semplicemente a riscaricare le bolle mancanti.
+La cache locale viene scritta in `data/cache.json`. Per rigenerare il sito
+statico a partire dalla cache:
 
-## Prossimo passo
+```powershell
+npm run publish:static
+```
 
-Collegare il Gestionale Edicola: il bottone "Importa Bolla I2" dovrà chiamare `GET /api/cache/bolla` su questo servizio (passandogli l'URL pubblico) invece di avviare direttamente lo scraping Playwright locale.
+## Dettagli
 
+- Il workflow controlla oggi, domani e i giorni precedenti configurati con
+  `GIORNI_INDIETRO` (default 14).
+- Una bolla già scaricata con righe non viene richiesta di nuovo; per le
+  combinazioni vuote o fallite si riprova fino a `MAX_TENTATIVI` (default 15).
+- Quando non restano richieste in sospeso nella finestra, il job non effettua
+  il login al portale; il job pianificato successivo rileva i dati del nuovo
+  giorno quando la finestra cambia.
+- La cache persistente viene recuperata e pubblicata nel branch `gh-pages`.
+- Il server Express in `server.js` rimane disponibile per uso locale o per un
+  host Node tradizionale; non è necessario per la pubblicazione GitHub Pages.

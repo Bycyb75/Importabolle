@@ -2,7 +2,9 @@
 const fs = require('fs');
 const path = require('path');
 
-const CACHE_FILE = path.join(__dirname, 'data', 'cache.json');
+const CACHE_FILE = process.env.CACHE_FILE
+  ? path.resolve(process.env.CACHE_FILE)
+  : path.join(__dirname, 'data', 'cache.json');
 let store = {};
 
 function chiave(edicolaid, tipo, categoria, dataBollaSQL) {
@@ -18,11 +20,14 @@ function salvaSuDisco() {
 async function assicuraTabella() {
   try {
     if (fs.existsSync(CACHE_FILE)) {
-      store = JSON.parse(fs.readFileSync(CACHE_FILE, 'utf8'));
+      const loaded = JSON.parse(fs.readFileSync(CACHE_FILE, 'utf8'));
+      if (!loaded || typeof loaded !== 'object' || Array.isArray(loaded)) {
+        throw new Error('il contenuto deve essere un oggetto JSON');
+      }
+      store = loaded;
     }
   } catch (err) {
-    console.error('[CACHE] ⚠️ Impossibile leggere il file di cache, riparto vuoto:', err.message);
-    store = {};
+    throw new Error(`Impossibile leggere la cache ${CACHE_FILE}: ${err.message}`, { cause: err });
   }
 }
 

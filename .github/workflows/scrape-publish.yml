@@ -1,0 +1,92 @@
+name: Scrape and publish cache
+
+on:
+  schedule:
+    - cron: '*/20 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape-and-publish-cache
+  cancel-in-progress: false
+
+jobs:
+  scrape-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Restore cache from GitHub Pages
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p data
+          if git ls-remote --exit-code --heads origin gh-pages >/dev/null 2>&1; then
+            git fetch origin gh-pages
+            if git cat-file -e FETCH_HEAD:data/cache.json 2>/dev/null; then
+              git show FETCH_HEAD:data/cache.json > data/cache.json
+            fi
+          fi
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Scrape pending bills
+        run: npm run scrape:once
+        env:
+          CACHE_FILE: data/cache.json
+          I2_USERNAME: ${{ secrets.I2_USERNAME }}
+          I2_PASSWORD: ${{ secrets.I2_PASSWORD }}
+          I2_EDICOLAID: ${{ secrets.I2_EDICOLAID }}
+          GIORNI_INDIETRO: '14'
+          MAX_TENTATIVI: '15'
+
+      - name: Generate static API
+        shell: bash
+        run: |
+          set -euo pipefail
+          repo_name="${GITHUB_REPOSITORY#*/}"
+          owner="${GITHUB_REPOSITORY%%/*}"
+          if [[ "$repo_name" == "$owner.github.io" ]]; then
+            export PUBLIC_BASE_PATH=''
+          else
+            export PUBLIC_BASE_PATH="/$repo_name"
+          fi
+          npm run publish:static
+
+      - name: Publish on GitHub Pages
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          git -C site init -b gh-pages
+          git -C site config user.name 'github-actions[bot]'
+          git -C site config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git -C site remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+
+          if git ls-remote --exit-code --heads origin gh-pages >/dev/null 2>&1; then
+            git -C site fetch --depth=1 origin gh-pages
+            git -C site reset --mixed FETCH_HEAD
+          fi
+
+          git -C site add --all
+          if git -C site diff --cached --quiet; then
+            echo 'Nessun aggiornamento da pubblicare.'
+            exit 0
+          fi
+
+          git -C site commit -m 'Aggiorna cache bolle' -m 'Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>'
+          git -C site push origin gh-pages
