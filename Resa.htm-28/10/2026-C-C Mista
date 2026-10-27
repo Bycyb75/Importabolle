@@ -1,0 +1,1296 @@
+<!DOCTYPE html>
+<html lang="it">
+<head><meta charset="UTF-8"><title>Resa 28/10/2026 C - MD online</title></head>
+<body>
+<table id="dlResa" cellspacing="0"><tbody>
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlResa_ctl01_hlDettaglio" class="linkPub" href="/2007263">ALL.SALUTE NATURALE</a></strong></td>
+            <td>
+              <span id="ctl00_MainContent_dlResa_ctl01_lblNumeroResa">60330</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl01_lblDataUscita" title="Data di uscita">29/09/2026</span>
+            </td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">9,90 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl01_lblPrezzoNetto" title="8,0416 €">8,0416 €</span>
+            </td>
+            <td class="distr" style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl01_lblCopieDistribuito">1</span>
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl01_lblDichiarato" class="DichRes">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl01_lblSviluppoNetto"></span></td>
+            <td></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl01_lblDifferenza">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl01_lblTestata">2681</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlResa_ctl02_hlDettaglio" class="linkPub" href="/2006507">CREATIVA PIU'</a></strong></td>
+            <td>
+              <span id="ctl00_MainContent_dlResa_ctl02_lblNumeroResa">60104</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl02_lblDataUscita" title="Data di uscita">24/09/2026</span>
+            </td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">6,90 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl02_lblPrezzoNetto" title="5,6939 €">5,6939 €</span>
+            </td>
+            <td class="distr" style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl02_lblCopieDistribuito">2</span>
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl02_lblDichiarato" class="DichRes">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl02_lblSviluppoNetto"></span></td>
+            <td></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl02_lblDifferenza">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl02_lblTestata">19042</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlResa_ctl03_hlDettaglio" class="linkPub" href="/2012043">DIVA E DONNA</a></strong></td>
+            <td>
+              <span id="ctl00_MainContent_dlResa_ctl03_lblNumeroResa">60043</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl03_lblDataUscita" title="Data di uscita">21/10/2026</span>
+            </td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">1,20 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl03_lblPrezzoNetto" title="0,9747 €">0,9747 €</span>
+            </td>
+            <td class="distr" style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl03_lblCopieDistribuito">6</span>
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl03_lblDichiarato" class="DichRes">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl03_lblSviluppoNetto"></span></td>
+            <td></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl03_lblDifferenza">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl03_lblTestata">13851</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlResa_ctl04_hlDettaglio" class="linkPub" href="/2012005">ENC. Citta del mondo ediz</a></strong></td>
+            <td>
+              <span id="ctl00_MainContent_dlResa_ctl04_lblNumeroResa">63004</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl04_lblDataUscita" title="Data di uscita">21/10/2026</span>
+            </td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">12,99 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl04_lblPrezzoNetto" title="10,5515 €">10,5515 €</span>
+            </td>
+            <td class="distr" style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl04_lblCopieDistribuito">1</span>
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl04_lblDichiarato" class="DichRes">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl04_lblSviluppoNetto"></span></td>
+            <td></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl04_lblDifferenza">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl04_lblTestata">7934</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlResa_ctl05_hlDettaglio" class="linkPub" href="/2011636">ENC. Ferrari 330 P4 rilan</a></strong></td>
+            <td>
+              <span id="ctl00_MainContent_dlResa_ctl05_lblNumeroResa">62041</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl05_lblDataUscita" title="Data di uscita">20/10/2026</span>
+            </td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">12,99 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl05_lblPrezzoNetto" title="10,7193 €">10,7193 €</span>
+            </td>
+            <td class="distr" style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl05_lblCopieDistribuito">1</span>
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl05_lblDichiarato" class="DichRes">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl05_lblSviluppoNetto"></span></td>
+            <td></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl05_lblDifferenza">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl05_lblTestata">3543</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlResa_ctl06_hlDettaglio" class="linkPub" href="/2011959">ENIGMISTICA PIU'</a></strong></td>
+            <td>
+              <span id="ctl00_MainContent_dlResa_ctl06_lblNumeroResa">60043</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl06_lblDataUscita" title="Data di uscita">21/10/2026</span>
+            </td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">1,30 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl06_lblPrezzoNetto" title="1,056 €">1,056 €</span>
+            </td>
+            <td class="distr" style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl06_lblCopieDistribuito">4</span>
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl06_lblDichiarato" class="DichRes">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl06_lblSviluppoNetto"></span></td>
+            <td></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl06_lblDifferenza">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl06_lblTestata">4267</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlResa_ctl07_hlDettaglio" class="linkPub" href="/2011950">F (FEM.CAIRO)</a></strong></td>
+            <td>
+              <span id="ctl00_MainContent_dlResa_ctl07_lblNumeroResa">60043</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl07_lblDataUscita" title="Data di uscita">21/10/2026</span>
+            </td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">1,40 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl07_lblPrezzoNetto" title="1,1372 €">1,1372 €</span>
+            </td>
+            <td class="distr" style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl07_lblCopieDistribuito">3</span>
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl07_lblDichiarato" class="DichRes">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl07_lblSviluppoNetto"></span></td>
+            <td></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl07_lblDifferenza">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl07_lblTestata">3363</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlResa_ctl08_hlDettaglio" class="linkPub" href="/2010741">GENTE ENIGMISTICA</a></strong></td>
+            <td>
+              <span id="ctl00_MainContent_dlResa_ctl08_lblNumeroResa">60021</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl08_lblDataUscita" title="Data di uscita">15/10/2026</span>
+            </td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">2,20 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl08_lblPrezzoNetto" title="1,787 €">1,787 €</span>
+            </td>
+            <td class="distr" style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl08_lblCopieDistribuito">2</span>
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl08_lblDichiarato" class="DichRes">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl08_lblSviluppoNetto"></span></td>
+            <td></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl08_lblDifferenza">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl08_lblTestata">1575</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlResa_ctl09_hlDettaglio" class="linkPub" href="/2012002">GRUFFALO' E I SUOI A</a></strong></td>
+            <td>
+              <span id="ctl00_MainContent_dlResa_ctl09_lblNumeroResa">60005</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl09_lblDataUscita" title="Data di uscita">21/10/2026</span>
+            </td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">7,99 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl09_lblPrezzoNetto" title="6,4864 €">6,4864 €</span>
+            </td>
+            <td class="distr" style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl09_lblCopieDistribuito">1</span>
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl09_lblDichiarato" class="DichRes">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl09_lblSviluppoNetto"></span></td>
+            <td></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl09_lblDifferenza">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl09_lblTestata">7504</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlResa_ctl10_hlDettaglio" class="linkPub" href="/2007585">I PUZZLE DI RELAX</a></strong></td>
+            <td>
+              <span id="ctl00_MainContent_dlResa_ctl10_lblNumeroResa">60388</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl10_lblDataUscita" title="Data di uscita">30/09/2026</span>
+            </td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">1,50 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl10_lblPrezzoNetto" title="1,2184 €">1,2184 €</span>
+            </td>
+            <td class="distr" style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl10_lblCopieDistribuito">1</span>
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl10_lblDichiarato" class="DichRes">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl10_lblSviluppoNetto"></span></td>
+            <td></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl10_lblDifferenza">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl10_lblTestata">5222</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlResa_ctl11_hlDettaglio" class="linkPub" href="/2012038">INTIMITA'</a></strong></td>
+            <td>
+              <span id="ctl00_MainContent_dlResa_ctl11_lblNumeroResa">60042</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl11_lblDataUscita" title="Data di uscita">21/10/2026</span>
+            </td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">2,20 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl11_lblPrezzoNetto" title="1,787 €">1,787 €</span>
+            </td>
+            <td class="distr" style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl11_lblCopieDistribuito">4</span>
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl11_lblDichiarato" class="DichRes">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl11_lblSviluppoNetto"></span></td>
+            <td></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl11_lblDifferenza">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl11_lblTestata">12164</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlResa_ctl12_hlDettaglio" class="linkPub" href="/2007248">MELAVERDE CON GADGET</a></strong></td>
+            <td>
+              <span id="ctl00_MainContent_dlResa_ctl12_lblNumeroResa">60098</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl12_lblDataUscita" title="Data di uscita">29/09/2026</span>
+            </td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">14,99 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl12_lblPrezzoNetto" title="12,3697 €">12,3697 €</span>
+            </td>
+            <td class="distr" style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl12_lblCopieDistribuito">1</span>
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl12_lblDichiarato" class="DichRes">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl12_lblSviluppoNetto"></span></td>
+            <td></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl12_lblDifferenza">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl12_lblTestata">483</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlResa_ctl13_hlDettaglio" class="linkPub" href="/2007303">MELAVERDE MAGAZINE</a></strong></td>
+            <td>
+              <span id="ctl00_MainContent_dlResa_ctl13_lblNumeroResa">60098</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl13_lblDataUscita" title="Data di uscita">29/09/2026</span>
+            </td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">3,99 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl13_lblPrezzoNetto" title="3,241 €">3,241 €</span>
+            </td>
+            <td class="distr" style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl13_lblCopieDistribuito">1</span>
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl13_lblDichiarato" class="DichRes">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl13_lblSviluppoNetto"></span></td>
+            <td></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl13_lblDifferenza">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl13_lblTestata">5017</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlResa_ctl14_hlDettaglio" class="linkPub" href="/2012013">PANORAMA</a></strong></td>
+            <td>
+              <span id="ctl00_MainContent_dlResa_ctl14_lblNumeroResa">62644</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl14_lblDataUscita" title="Data di uscita">21/10/2026</span>
+            </td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">3,50 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl14_lblPrezzoNetto" title="2,843 €">2,843 €</span>
+            </td>
+            <td class="distr" style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl14_lblCopieDistribuito">2</span>
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl14_lblDichiarato" class="DichRes">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl14_lblSviluppoNetto"></span></td>
+            <td></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl14_lblDifferenza">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl14_lblTestata">8856</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlResa_ctl15_hlDettaglio" class="linkPub" href="/2006686">PUZZLE IN ALLEGRIA</a></strong></td>
+            <td>
+              <span id="ctl00_MainContent_dlResa_ctl15_lblNumeroResa">60400</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl15_lblDataUscita" title="Data di uscita">25/09/2026</span>
+            </td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">2,00 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl15_lblPrezzoNetto" title="1,6246 €">1,6246 €</span>
+            </td>
+            <td class="distr" style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl15_lblCopieDistribuito">1</span>
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl15_lblDichiarato" class="DichRes">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl15_lblSviluppoNetto"></span></td>
+            <td></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl15_lblDifferenza">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl15_lblTestata">4990</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlResa_ctl16_hlDettaglio" class="linkPub" href="/2007795">RELAX</a></strong></td>
+            <td>
+              <span id="ctl00_MainContent_dlResa_ctl16_lblNumeroResa">60605</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl16_lblDataUscita" title="Data di uscita">01/10/2026</span>
+            </td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">2,00 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl16_lblPrezzoNetto" title="1,6246 €">1,6246 €</span>
+            </td>
+            <td class="distr" style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl16_lblCopieDistribuito">4</span>
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl16_lblDichiarato" class="DichRes">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl16_lblSviluppoNetto"></span></td>
+            <td></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl16_lblDifferenza">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl16_lblTestata">1018</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlResa_ctl17_hlDettaglio" class="linkPub" href="/2007306">SALUTE NATURALE</a></strong></td>
+            <td>
+              <span id="ctl00_MainContent_dlResa_ctl17_lblNumeroResa">60330</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl17_lblDataUscita" title="Data di uscita">29/09/2026</span>
+            </td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">4,50 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl17_lblPrezzoNetto" title="3,6553 €">3,6553 €</span>
+            </td>
+            <td class="distr" style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl17_lblCopieDistribuito">1</span>
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl17_lblDichiarato" class="DichRes">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl17_lblSviluppoNetto"></span></td>
+            <td></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl17_lblDifferenza">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl17_lblTestata">5355</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlResa_ctl18_hlDettaglio" class="linkPub" href="/2012036">SETTIMANA SUDOKU</a></strong></td>
+            <td>
+              <span id="ctl00_MainContent_dlResa_ctl18_lblNumeroResa">61106</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl18_lblDataUscita" title="Data di uscita">21/10/2026</span>
+            </td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">1,50 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl18_lblPrezzoNetto" title="1,2184 €">1,2184 €</span>
+            </td>
+            <td class="distr" style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl18_lblCopieDistribuito">7</span>
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl18_lblDichiarato" class="DichRes">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl18_lblSviluppoNetto"></span></td>
+            <td></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl18_lblDifferenza">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl18_lblTestata">11078</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlResa_ctl19_hlDettaglio" class="linkPub" href="/2011967">BIBLIOTECA DELLE STAGIONI</a></strong></td>
+            <td>
+              <span id="ctl00_MainContent_dlResa_ctl19_lblNumeroResa">60036</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl19_lblDataUscita" title="Data di uscita">21/10/2026</span>
+            </td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">7,99 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl19_lblPrezzoNetto" title="6,4901 €">6,4901 €</span>
+            </td>
+            <td class="distr" style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl19_lblCopieDistribuito">1</span>
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl19_lblDichiarato" class="DichRes">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl19_lblSviluppoNetto"></span></td>
+            <td></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl19_lblDifferenza">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl19_lblTestata">5112</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlResa_ctl20_hlDettaglio" class="linkPub" href="/1992597">ESP.EDICOLANTE MAGICO</a></strong></td>
+            <td>
+              <span id="ctl00_MainContent_dlResa_ctl20_lblNumeroResa">60003</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl20_lblDataUscita" title="Data di uscita">16/07/2026</span>
+            </td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">5,00 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl20_lblPrezzoNetto" title="4,126 €">4,126 €</span>
+            </td>
+            <td class="distr" style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl20_lblCopieDistribuito">3</span>
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl20_lblDichiarato" class="DichRes">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl20_lblSviluppoNetto"></span></td>
+            <td></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl20_lblDifferenza">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl20_lblTestata">22467</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlResa_ctl21_hlDettaglio" class="linkPub" href="/2007581">PAW PATROL MAGAZINE</a></strong></td>
+            <td>
+              <span id="ctl00_MainContent_dlResa_ctl21_lblNumeroResa">60009</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl21_lblDataUscita" title="Data di uscita">30/09/2026</span>
+            </td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">5,90 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl21_lblPrezzoNetto" title="4,8687 €">4,8687 €</span>
+            </td>
+            <td class="distr" style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl21_lblCopieDistribuito">1</span>
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl21_lblDichiarato" class="DichRes">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl21_lblSviluppoNetto"></span></td>
+            <td></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl21_lblDifferenza">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl21_lblTestata">4524</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlResa_ctl22_hlDettaglio" class="linkPub" href="/2004413">AUTODEFINITI X LE ST</a></strong></td>
+            <td>
+              <span id="ctl00_MainContent_dlResa_ctl22_lblNumeroResa">60102</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl22_lblDataUscita" title="Data di uscita">15/09/2026</span>
+            </td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">2,20 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl22_lblPrezzoNetto" title="1,787 €">1,787 €</span>
+            </td>
+            <td class="distr" style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl22_lblCopieDistribuito">2</span>
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl22_lblDichiarato" class="DichRes">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl22_lblSviluppoNetto"></span></td>
+            <td></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl22_lblDifferenza">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl22_lblTestata">3835</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlResa_ctl23_hlDettaglio" class="linkPub" href="/2004560">BELLE E IN FORMA</a></strong></td>
+            <td>
+              <span id="ctl00_MainContent_dlResa_ctl23_lblNumeroResa">60010</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl23_lblDataUscita" title="Data di uscita">15/09/2026</span>
+            </td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">3,95 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl23_lblPrezzoNetto" title="3,2595 €">3,2595 €</span>
+            </td>
+            <td class="distr" style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl23_lblCopieDistribuito">3</span>
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl23_lblDichiarato" class="DichRes">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl23_lblSviluppoNetto"></span></td>
+            <td></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl23_lblDifferenza">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl23_lblTestata">31079</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlResa_ctl24_hlDettaglio" class="linkPub" href="/1984720">BUSTINE SQUISHY DUMPLING (A...</a></strong></td>
+            <td>
+              <span id="ctl00_MainContent_dlResa_ctl24_lblNumeroResa">60003</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl24_lblDataUscita" title="Data di uscita">09/06/2026</span>
+            </td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">2,00 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl24_lblPrezzoNetto" title="1,5258 €">1,5258 €</span>
+            </td>
+            <td class="distr" style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl24_lblCopieDistribuito">20</span>
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl24_lblDichiarato" class="DichRes">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl24_lblSviluppoNetto"></span></td>
+            <td></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl24_lblDifferenza">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl24_lblTestata">7971</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlResa_ctl25_hlDettaglio" class="linkPub" href="/2005566">CARDS MAGAZINE 04</a></strong></td>
+            <td>
+              <span id="ctl00_MainContent_dlResa_ctl25_lblNumeroResa">60042</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl25_lblDataUscita" title="Data di uscita">19/09/2026</span>
+            </td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">59,90 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl25_lblPrezzoNetto" title="49,4295 €">49,4295 €</span>
+            </td>
+            <td class="distr" style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl25_lblCopieDistribuito">8</span>
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl25_lblDichiarato" class="DichRes">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl25_lblSviluppoNetto"></span></td>
+            <td></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl25_lblDifferenza">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl25_lblTestata">28590</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlResa_ctl26_hlDettaglio" class="linkPub" href="/2004520">CIVILTA' DELL.TAVOLA</a></strong></td>
+            <td>
+              <span id="ctl00_MainContent_dlResa_ctl26_lblNumeroResa">60040</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl26_lblDataUscita" title="Data di uscita">15/09/2026</span>
+            </td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">3,50 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl26_lblPrezzoNetto" title="2,843 €">2,843 €</span>
+            </td>
+            <td class="distr" style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl26_lblCopieDistribuito">1</span>
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl26_lblDichiarato" class="DichRes">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl26_lblSviluppoNetto"></span></td>
+            <td></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl26_lblDifferenza">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl26_lblTestata">22790</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlResa_ctl27_hlDettaglio" class="linkPub" href="/2004522">DIABOLIK MAGNUM R</a></strong></td>
+            <td>
+              <span id="ctl00_MainContent_dlResa_ctl27_lblNumeroResa">60002</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl27_lblDataUscita" title="Data di uscita">15/09/2026</span>
+            </td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">9,90 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl27_lblPrezzoNetto" title="7,5525 €">7,5525 €</span>
+            </td>
+            <td class="distr" style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl27_lblCopieDistribuito">1</span>
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl27_lblDichiarato" class="DichRes">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl27_lblSviluppoNetto"></span></td>
+            <td></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl27_lblDifferenza">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl27_lblTestata">23384</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlResa_ctl28_hlDettaglio" class="linkPub" href="/2004434">ENIGMISTICA  PER I PIU' ABILI</a></strong></td>
+            <td>
+              <span id="ctl00_MainContent_dlResa_ctl28_lblNumeroResa">60265</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl28_lblDataUscita" title="Data di uscita">15/09/2026</span>
+            </td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">1,90 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl28_lblPrezzoNetto" title="1,5433 €">1,5433 €</span>
+            </td>
+            <td class="distr" style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl28_lblCopieDistribuito">2</span>
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl28_lblDichiarato" class="DichRes">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl28_lblSviluppoNetto"></span></td>
+            <td></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl28_lblDifferenza">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl28_lblTestata">6102</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlResa_ctl29_hlDettaglio" class="linkPub" href="/2003911">FACILI CRUCIVERBA MA</a></strong></td>
+            <td>
+              <span id="ctl00_MainContent_dlResa_ctl29_lblNumeroResa">60031</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl29_lblDataUscita" title="Data di uscita">11/09/2026</span>
+            </td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">3,90 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl29_lblPrezzoNetto" title="3,0389 €">3,0389 €</span>
+            </td>
+            <td class="distr" style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl29_lblCopieDistribuito">1</span>
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl29_lblDichiarato" class="DichRes">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl29_lblSviluppoNetto"></span></td>
+            <td></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl29_lblDifferenza">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl29_lblTestata">1552</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlResa_ctl30_hlDettaglio" class="linkPub" href="/2004521">FANTASTIC COLOR</a></strong></td>
+            <td>
+              <span id="ctl00_MainContent_dlResa_ctl30_lblNumeroResa">60027</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl30_lblDataUscita" title="Data di uscita">15/09/2026</span>
+            </td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">3,50 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl30_lblPrezzoNetto" title="2,843 €">2,843 €</span>
+            </td>
+            <td class="distr" style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl30_lblCopieDistribuito">1</span>
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl30_lblDichiarato" class="DichRes">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl30_lblSviluppoNetto"></span></td>
+            <td></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl30_lblDifferenza">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl30_lblTestata">22802</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlResa_ctl31_hlDettaglio" class="linkPub" href="/2005342">FREEDOM MAGAZINE</a></strong></td>
+            <td>
+              <span id="ctl00_MainContent_dlResa_ctl31_lblNumeroResa">60071</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl31_lblDataUscita" title="Data di uscita">18/09/2026</span>
+            </td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">3,99 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl31_lblPrezzoNetto" title="3,241 €">3,241 €</span>
+            </td>
+            <td class="distr" style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl31_lblCopieDistribuito">1</span>
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl31_lblDichiarato" class="DichRes">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl31_lblSviluppoNetto"></span></td>
+            <td></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl31_lblDifferenza">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl31_lblTestata">16128</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlResa_ctl32_hlDettaglio" class="linkPub" href="/2004523">GRANDI OFFERTE-STOCK-VAR.98</a></strong></td>
+            <td>
+              <span id="ctl00_MainContent_dlResa_ctl32_lblNumeroResa">60023</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl32_lblDataUscita" title="Data di uscita">15/09/2026</span>
+            </td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">6,90 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl32_lblPrezzoNetto" title="5,6047 €">5,6047 €</span>
+            </td>
+            <td class="distr" style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl32_lblCopieDistribuito">1</span>
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl32_lblDichiarato" class="DichRes">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl32_lblSviluppoNetto"></span></td>
+            <td></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl32_lblDifferenza">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl32_lblTestata">23985</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlResa_ctl33_hlDettaglio" class="linkPub" href="/2004503">I CRUCIVERBA FACILI</a></strong></td>
+            <td>
+              <span id="ctl00_MainContent_dlResa_ctl33_lblNumeroResa">60047</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl33_lblDataUscita" title="Data di uscita">15/09/2026</span>
+            </td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">2,00 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl33_lblPrezzoNetto" title="1,6246 €">1,6246 €</span>
+            </td>
+            <td class="distr" style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl33_lblCopieDistribuito">1</span>
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl33_lblDichiarato" class="DichRes">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl33_lblSviluppoNetto"></span></td>
+            <td></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl33_lblDifferenza">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl33_lblTestata">17921</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlResa_ctl34_hlDettaglio" class="linkPub" href="/2005125">IL MEGLIO DEI CRITTO</a></strong></td>
+            <td>
+              <span id="ctl00_MainContent_dlResa_ctl34_lblNumeroResa">60033</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl34_lblDataUscita" title="Data di uscita">17/09/2026</span>
+            </td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">3,50 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl34_lblPrezzoNetto" title="2,8882 €">2,8882 €</span>
+            </td>
+            <td class="distr" style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl34_lblCopieDistribuito">1</span>
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl34_lblDichiarato" class="DichRes">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl34_lblSviluppoNetto"></span></td>
+            <td></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl34_lblDifferenza">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl34_lblTestata">21356</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlResa_ctl35_hlDettaglio" class="linkPub" href="/2005031">L'ALTRA ENIGM.RACCOL</a></strong></td>
+            <td>
+              <span id="ctl00_MainContent_dlResa_ctl35_lblNumeroResa">60099</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl35_lblDataUscita" title="Data di uscita">17/09/2026</span>
+            </td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">2,20 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl35_lblPrezzoNetto" title="1,787 €">1,787 €</span>
+            </td>
+            <td class="distr" style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl35_lblCopieDistribuito">1</span>
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl35_lblDichiarato" class="DichRes">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl35_lblSviluppoNetto"></span></td>
+            <td></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl35_lblDifferenza">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl35_lblTestata">1551</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlResa_ctl36_hlDettaglio" class="linkPub" href="/2004575">MANI DI FATA COLLECT</a></strong></td>
+            <td>
+              <span id="ctl00_MainContent_dlResa_ctl36_lblNumeroResa">60006</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl36_lblDataUscita" title="Data di uscita">15/09/2026</span>
+            </td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">12,90 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl36_lblPrezzoNetto" title="9,8412 €">9,8412 €</span>
+            </td>
+            <td class="distr" style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl36_lblCopieDistribuito">1</span>
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl36_lblDichiarato" class="DichRes">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl36_lblSviluppoNetto"></span></td>
+            <td></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl36_lblDifferenza">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl36_lblTestata">31798</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlResa_ctl37_hlDettaglio" class="linkPub" href="/2004024">MOSTRI DA COLORARE</a></strong></td>
+            <td>
+              <span id="ctl00_MainContent_dlResa_ctl37_lblNumeroResa">60003</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl37_lblDataUscita" title="Data di uscita">11/09/2026</span>
+            </td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">5,90 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl37_lblPrezzoNetto" title="4,7925 €">4,7925 €</span>
+            </td>
+            <td class="distr" style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl37_lblCopieDistribuito">1</span>
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl37_lblDichiarato" class="DichRes">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl37_lblSviluppoNetto"></span></td>
+            <td></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl37_lblDifferenza">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl37_lblTestata">30708</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlResa_ctl38_hlDettaglio" class="linkPub" href="/2003690">PUZZLE 2000 PAROLE</a></strong></td>
+            <td>
+              <span id="ctl00_MainContent_dlResa_ctl38_lblNumeroResa">60012</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl38_lblDataUscita" title="Data di uscita">10/09/2026</span>
+            </td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">2,50 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl38_lblPrezzoNetto" title="2,063 €">2,063 €</span>
+            </td>
+            <td class="distr" style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl38_lblCopieDistribuito">1</span>
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl38_lblDichiarato" class="DichRes">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl38_lblSviluppoNetto"></span></td>
+            <td></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl38_lblDifferenza">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl38_lblTestata">31196</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlResa_ctl39_hlDettaglio" class="linkPub" href="/2004694">QUIN</a></strong></td>
+            <td>
+              <span id="ctl00_MainContent_dlResa_ctl39_lblNumeroResa">60076</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl39_lblDataUscita" title="Data di uscita">16/09/2026</span>
+            </td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">7,00 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl39_lblPrezzoNetto" title="5,686 €">5,686 €</span>
+            </td>
+            <td class="distr" style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl39_lblCopieDistribuito">1</span>
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl39_lblDichiarato" class="DichRes">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl39_lblSviluppoNetto"></span></td>
+            <td></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl39_lblDifferenza">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl39_lblTestata">1797</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlResa_ctl40_hlDettaglio" class="linkPub" href="/1984721">RACC. SQUISHY DUMPLING (Ald...</a></strong></td>
+            <td>
+              <span id="ctl00_MainContent_dlResa_ctl40_lblNumeroResa">60003</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl40_lblDataUscita" title="Data di uscita">09/06/2026</span>
+            </td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">7,90 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl40_lblPrezzoNetto" title="6,0268 €">6,0268 €</span>
+            </td>
+            <td class="distr" style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl40_lblCopieDistribuito">2</span>
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl40_lblDichiarato" class="DichRes">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl40_lblSviluppoNetto"></span></td>
+            <td></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl40_lblDifferenza">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl40_lblTestata">7977</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlResa_ctl41_hlDettaglio" class="linkPub" href="/2005138">SUPPL.CRITTOGRAF.SP</a></strong></td>
+            <td>
+              <span id="ctl00_MainContent_dlResa_ctl41_lblNumeroResa">60033</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl41_lblDataUscita" title="Data di uscita">17/09/2026</span>
+            </td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">9,90 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl41_lblPrezzoNetto" title="7,7141 €">7,7141 €</span>
+            </td>
+            <td class="distr" style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl41_lblCopieDistribuito">1</span>
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl41_lblDichiarato" class="DichRes">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl41_lblSviluppoNetto"></span></td>
+            <td></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl41_lblDifferenza">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl41_lblTestata">30460</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlResa_ctl42_hlDettaglio" class="linkPub" href="/2004543">UNCINETTO INDOSSATO</a></strong></td>
+            <td>
+              <span id="ctl00_MainContent_dlResa_ctl42_lblNumeroResa">60019</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl42_lblDataUscita" title="Data di uscita">15/09/2026</span>
+            </td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">6,90 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl42_lblPrezzoNetto" title="5,6047 €">5,6047 €</span>
+            </td>
+            <td class="distr" style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl42_lblCopieDistribuito">1</span>
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl42_lblDichiarato" class="DichRes">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl42_lblSviluppoNetto"></span></td>
+            <td></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl42_lblDifferenza">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl42_lblTestata">28959</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr>
+
+      <tr><td>
+        <table id="record" class="tabella">
+          <tbody><tr>
+            <td><strong><a id="ctl00_MainContent_dlResa_ctl43_hlDettaglio" class="linkPub" href="/2005265">VIVERE COUNTRY</a></strong></td>
+            <td>
+              <span id="ctl00_MainContent_dlResa_ctl43_lblNumeroResa">60189</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl43_lblDataUscita" title="Data di uscita">18/09/2026</span>
+            </td>
+            <td style="text-align:center">
+              <span id="lblPrezzo">6,90 €</span>
+              <br />
+              <span id="ctl00_MainContent_dlResa_ctl43_lblPrezzoNetto" title="5,6047 €">5,6047 €</span>
+            </td>
+            <td class="distr" style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl43_lblCopieDistribuito">1</span>
+            </td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl43_lblDichiarato" class="DichRes">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl43_lblSviluppoNetto"></span></td>
+            <td></td>
+            <td style="text-align:center">
+              <span id="ctl00_MainContent_dlResa_ctl43_lblDifferenza">0</span>
+            </td>
+            <td style="text-align:center"><span id="ctl00_MainContent_dlResa_ctl43_lblTestata">2360</span></td>
+          </tr></tbody>
+        </table>
+      </td></tr></tbody></table>
+</body>
+</html>
